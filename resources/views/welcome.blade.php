@@ -138,7 +138,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
+                        <i class="bi bi-camera"></i>
                         <h4><a href="#">Photography</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
+                        <i class="bi bi-image"></i>
                         <h4><a href="#">Aerial Photo Video</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
@@ -156,7 +156,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
+                        <i class="bi bi-camera-reels"></i>
                         <h4><a href="#">Live Streaming Production</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
@@ -165,7 +165,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
+                        <i class="bi bi-file-earmark-music"></i>
                         <h4><a href="#">Music Production & Publishing</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
@@ -174,7 +174,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
+                        <i class="bi bi-controller"></i>
                         <h4><a href="#">E-Sport Production</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
