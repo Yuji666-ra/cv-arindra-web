@@ -8,7 +8,7 @@
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV Arindra Production</div>
+                <div class="hero-text text-white">Welcome to<br> CV Arin Production</div>
             </div>
             <div class="button text-light mt-4 px-2">
                 Explore More
