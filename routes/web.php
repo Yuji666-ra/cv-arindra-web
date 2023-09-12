@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::get('/project', function () {
 Route::get('/detail', function () {
     return view('projects.detail');
 });
+
+Route::get('/dbl',[ProjectController::class, 'dbl'])->name('dbl');
