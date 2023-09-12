@@ -8,7 +8,7 @@
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV Arin Production</div>
+                <div class="hero-text text-white">Welcome to<br> CV. Arindra Production</div>
             </div>
             <div class="button text-light mt-4 px-2">
                 Explore More
@@ -18,7 +18,7 @@
     </section>
 
     <!--About Us-->
-    <section id="contact" class="py-5">
+    <section id="about" class="py-5">
         <div class="container py-5">
             <div class="row d-flex align-items-center" data-aos="fade-right">
                 <div class="col-lg-6">
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-image"></i>
+                        <i class="bi bi-airplane"></i>
                         <h4><a href="#">Aerial Photo Video</a></h4>
                         <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
@@ -277,7 +277,7 @@
     <section id="project" class="py-5">
         <div class="container py-5">
 
-            <div class="header-projecr text-center">
+            <div class="header-project text-center">
                 <h2 class="fw-bold">Success Project </h2>
             </div>
 
@@ -329,4 +329,110 @@
             </div>
         </div>
     </section>
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container py-5">
+
+            <div class="section-title header-project text-center" data-aos="fade-up">
+                <h2 class="fw-bold">Portfolio</h2>
+                <p>Check our Portfolio</p>
+            </div>
+
+            <div class="row g-0" data-aos="fade-left">
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="assets/images/portfolio/portfolio-1.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-1.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="150">
+                        <a href="assets/images/portfolio/portfolio-2.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-2.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                        <a href="assets/images/portfolio/portfolio-3.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-3.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="250">
+                        <a href="assets/images/portfolio/portfolio-4.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-4.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+                        <a href="assets/images/portfolio/portfolio-5.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-5.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="350">
+                        <a href="assets/images/portfolio/portfolio-6.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-6.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="400">
+                        <a href="assets/images/portfolio/portfolio-7.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-7.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="450">
+                        <a href="assets/images/portfolio/portfolio-8.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-8.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="assets/images/portfolio/portfolio-9.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-9.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="assets/images/portfolio/portfolio-10.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-10.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="assets/images/portfolio/portfolio-11.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-11.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="assets/images/portfolio/portfolio-12.png" class="portfolio-lightbox">
+                            <img src="assets/images/portfolio/portfolio-12.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End portfolio Section -->
 @endsection
