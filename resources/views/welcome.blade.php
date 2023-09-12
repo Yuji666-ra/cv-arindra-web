@@ -8,7 +8,7 @@
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV. Arindra Production</div>
+                <div class="hero-text text-white">Welcome to<br> CV Arin Production</div>
             </div>
             <div class="button text-light mt-4 px-2">
                 Explore More
@@ -292,7 +292,7 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="" class="text-decoration-none text-primary">Selengkapnya</a>
+                            <a href="{{ route('dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
