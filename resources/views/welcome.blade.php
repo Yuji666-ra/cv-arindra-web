@@ -204,7 +204,7 @@
                             <li>Jasa pengambilan dan pengeditan video company profile</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/company')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                             <li>Jasa pengambilan video event terkhusus untuk after movie event</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/video')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                             <li>Jasa pengambilan dan pengeditan photo-photo event skala besar ataupun kecil</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/photo')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                             <li>Jasa pengambilan footage berupa video atau photo melalui alat drone dan pilot</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List
+                            <a href="{{ route('price/drone')}}" class="btn-buy">Check Price List
                             </a>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('dbl') }}" class="text-decoration-none text-primary">Selengkapnya</a>
+                            <a href="{{ route('dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                             <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
-                            <a href="" class="text-decoration-none text-primary">Selengkapnya</a>
+                            <a href="{{ route('projects/camp')}}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -318,14 +318,14 @@
                             <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
                                 mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
-                            <a href="" class="text-decoration-none text-primary ">Selengkapnya</a>
+                            <a href="{{ route('projects/esport')}}" class="text-decoration-none text-primary ">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="footer-project text-center">
-                <a href="" class="btn btn-outline-primary">Project Lainnya</a>
+                <a href="{{ route('projects/project')}}" class="btn btn-outline-primary">Project Lainnya</a>
             </div>
         </div>
     </section>
