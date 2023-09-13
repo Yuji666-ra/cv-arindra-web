@@ -287,7 +287,7 @@ body {
 
 .services .icon-box {
     margin-bottom: 20px;
-    padding: 50px 30px;
+    padding: 65px 20px;
     border-radius: 6px;
     background: #ffffff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -590,6 +590,12 @@ body {
       justify-content: flex-end;
     }
   }
+
+  /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+
 
   /*--------------------------------------------------------------
 # Back to top button

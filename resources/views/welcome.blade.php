@@ -117,68 +117,66 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-        <div class="container" data-aos="fade-up" style="margin-top: 80px">
+        <div class="container" data-aos="zoom-in" style="margin-top: 80px">
 
             <div class="section-title text-center">
                 <h2 class="fw-bold mb-2">Our Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                    sit in iste officiis commodi quidem hic quas.</p>
+                <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
             </div>
 
             <div class="row text-center">
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-camera-video"></i>
                         <h4><a href="#">Video Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
+                        <p>Sampaikan semua cerita Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
                             kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
                             merangkum esensi merek Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-camera"></i>
                         <h4><a href="#">Photography</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <p>Gambar menyampaikan makna dalam sekejap, sering kali merupakan hal pertama yang diketahui oleh
+                            calon klien atau pelanggan tentang bisnis Anda. Foto-foto kami membantu Anda membuat kesan
+                            pertama yang lebih baik.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-airplane"></i>
                         <h4><a href="#">Aerial Photo Video</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <p>Berikan perspektif baru tentang bisnis Anda dengan tampilan udara, kami memberikan solusi terbaik
+                            untuk kebutuhan fotografi dan videografi digital udara Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-camera-reels"></i>
                         <h4><a href="#">Live Streaming Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <p>Memberikan layanan Live Streaming secara Remote, On Location maupun Hybrid untuk tayang pada
+                            semua Media Sosial, Website, E-Commerce, Zoom dan Lainnya, CV. Arindra Production siap
+                            menyesuaikan setiap kebutuhan Anda dengan Harga Terjangkau!</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-file-earmark-music"></i>
                         <h4><a href="#">Music Production & Publishing</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <p>Memberikan layanan Music Production seperti pembuatan Theme Song, Pembuatan Jingle, Pembuatan
+                            Soundtrack, Pembuatan Film Score, Dan Music Publishing, CV. Arindra Production siap menyesuaikan
+                            setiap kebutuhan Anda dengan Harga Kompetitif!</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
                         <i class="bi bi-controller"></i>
                         <h4><a href="#">E-Sport Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <p>Arindra Production menyediakan segala kebutuhan teknis dan SDM untuk menjalankan kompetisi Esport
+                            secara Online maupun Offline. Mulai dari SDM dan Peralatan Terbaik untuk Observer In Game,
+                            Broadcast hingga Studio Caster dengan desain layout untuk kebutuhan Live Streaming pada saat In
+                            Game.</p>
                     </div>
                 </div>
             </div>
@@ -191,11 +189,12 @@
         <div class="container" data-aos="fade-up" style="margin-top: 80px">
 
             <div class="section-title text-center">
-                <h2>Price List</h2>
-                <p>Daftar Jasa beserta Price List yang ada di CV. Arindra Production.</p>
+                <h2 class="fw-bold mb-2">Price List</h2>
+                <p>Hemat lebih banyak dengan paket penawaran eksklusif kami. Jelajahi daftar harga untuk menemukan penawaran
+                    terbaik kami.</p>
             </div>
 
-            <div class="row">
+            <div class="row py-2" data-aos="zoom-in">
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="box featured">
@@ -277,11 +276,12 @@
     <section id="project" class="py-5">
         <div class="container py-5">
 
-            <div class="header-project text-center">
-                <h2 class="fw-bold">Success Project </h2>
+            <div class="section-title header-project text-center" data-aos="fade-up">
+                <h2 class="fw-bold">Success Project</h2>
+                <p>View our Success Project</p>
             </div>
 
-            <div class="row py-5" data-aos="zoom-in">
+            <div class="row py-2" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card border-0">
                         <img src="{{ asset('assets/images/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
@@ -292,7 +292,7 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
+                            <a href="{{ route('dbl') }}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
     <section id="portfolio" class="portfolio">
         <div class="container py-5">
 
-            <div class="section-title header-project text-center" data-aos="fade-up">
+            <div class="section-title header-project text-center" data-aos="zoom-in">
                 <h2 class="fw-bold">Portfolio</h2>
                 <p>Check our Portfolio</p>
             </div>
