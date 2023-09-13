@@ -3,16 +3,20 @@
 @section('content')
     <!--Hero Text-->
     <section id="hero" class="px-0">
+        <video autoplay muted loop id="background-video">
+            <source src="{{ asset('assets/videos/bg-vid.mp4') }}" type="video/mp4">
+            <!-- Jika ingin mendukung format video lain, tambahkan sumber tambahan di sini -->
+        </video>
         <div class="container text-center ">
             <div class="hero-title" data-aos="fade-up">
+                <div class="hero-text text-white">Capturing Moments &<br> Crafting Memories With Us</div>
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV Arin Production</div>
             </div>
-            <div class="button text-light mt-4 px-2">
+            <div class="button text-light mt-4 px-2 rounded">
                 Explore More
-                <img src="{{ asset('assets/icons/arrow-up-right.svg') }}" height="20"width="16"alt="">
+                <img src="{{ asset('assets/icons/arrow-up-right.svg') }}" height="20" width="16" alt="">
             </div>
         </div>
     </section>
@@ -40,17 +44,17 @@
     </section>
 
     <!--Mitra -->
-    <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
-        <section class="customer-logos slider col-xxl-9">
-            <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/3.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/4.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/5.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
-        </section>
-    </div>
+    <!--<div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
+                                <section class="customer-logos slider col-xxl-9">
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/3.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/4.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/5.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
+                                    <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
+                                </section>
+                            </div>-->
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
