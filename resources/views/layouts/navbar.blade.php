@@ -51,7 +51,7 @@
                 </li>
             </ul>
             <div class="d-flex">
-                <button class="btn btn-primary">Contact Us</button>
+                <button class="btn btn-primary" href="Contact Us">Contact Us</button>
             </div>
         </div>
     </div>
