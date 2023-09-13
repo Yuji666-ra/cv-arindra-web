@@ -8,7 +8,7 @@
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV. Arindra Production</div>
+                <div class="hero-text text-white">Welcome to<br> CV. Production</div>
             </div>
             <div class="button text-light mt-4 px-2">
                 Explore More
@@ -129,7 +129,8 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-camera-video"></i></div>
                         <h4><a href="">Video Production</a></h4>
-                        <p>Sampaikan cerita, bisnis, dan produk Anda dengan audio visual berkualitas tinggi untuk kesan terbaik kepada audiens Anda.</p>
+                        <p>Sampaikan cerita, bisnis, dan produk Anda dengan audio visual berkualitas tinggi untuk kesan
+                            terbaik kepada audiens Anda.</p>
                     </div>
                 </div>
 
@@ -138,7 +139,8 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-camera"></i></div>
                         <h4><a href="">Photography</a></h4>
-                        <p>Gambar adalah kesan pertama bagi calon klien atau pelanggan Anda. Foto-foto kami membantu menciptakan kesan pertama yang lebih baik.</p>
+                        <p>Gambar adalah kesan pertama bagi calon klien atau pelanggan Anda. Foto-foto kami membantu
+                            menciptakan kesan pertama yang lebih baik.</p>
                     </div>
                 </div>
 
@@ -156,7 +158,9 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-camera-reels"></i></div>
                         <h4><a href="">Live Streaming Production</a></h4>
-                        <p>Kami siap menyediakan layanan Live Streaming sesuai kebutuhan Anda dengan harga terjangkau, baik secara remote, on location, atau hybrid, untuk tayang di berbagai platform seperti media sosial, website, e-commerce, Zoom, dan lainnya.</p>
+                        <p>Kami siap menyediakan layanan Live Streaming sesuai kebutuhan Anda dengan harga terjangkau, baik
+                            secara remote, on location, atau hybrid, untuk tayang di berbagai platform seperti media sosial,
+                            website, e-commerce, Zoom, dan lainnya.</p>
                     </div>
                 </div>
 
@@ -164,7 +168,8 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-file-earmark-music"></i></div>
                         <h4><a href="">Music Production & Publishing</a></h4>
-                        <p>Kami siap menyediakan layanan Music Production dengan harga kompetitif, termasuk Theme Song, Jingle, Soundtrack, Film Score, dan Music Publishing sesuai kebutuhan Anda.</p>
+                        <p>Kami siap menyediakan layanan Music Production dengan harga kompetitif, termasuk Theme Song,
+                            Jingle, Soundtrack, Film Score, dan Music Publishing sesuai kebutuhan Anda.</p>
                     </div>
                 </div>
 
@@ -172,7 +177,9 @@
                     <div class="icon-box">
                         <div class="icon"><i class="bi bi-controller"></i></div>
                         <h4><a href="">E-Sport Production</a></h4>
-                        <p>Arindra Production siap menyediakan semua kebutuhan teknis dan SDM untuk kompetisi Esport, baik Online maupun Offline, termasuk Observer In Game, Broadcast, dan Studio Caster dengan desain layout untuk Live Streaming In Game.</p>
+                        <p>Arindra Production siap menyediakan semua kebutuhan teknis dan SDM untuk kompetisi Esport, baik
+                            Online maupun Offline, termasuk Observer In Game, Broadcast, dan Studio Caster dengan desain
+                            layout untuk Live Streaming In Game.</p>
                     </div>
                 </div>
 
@@ -182,73 +189,73 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Services Section
-                <section id="services" class="services">
-                    <div class="container" data-aos="zoom-in" style="margin-top: 80px">
+                    <section id="services" class="services">
+                        <div class="container" data-aos="zoom-in" style="margin-top: 80px">
 
-                        <div class="section-title text-center">
-                            <h2 class="fw-bold mb-2">Our Services</h2>
-                            <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
+                            <div class="section-title text-center">
+                                <h2 class="fw-bold mb-2">Our Services</h2>
+                                <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-camera-video"></i>
+                                        <h4><a href="#">Video Production</a></h4>
+                                        <p>Sampaikan semua cerita Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
+                                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
+                                            merangkum esensi merek Anda.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-camera"></i>
+                                        <h4><a href="#">Photography</a></h4>
+                                        <p>Gambar menyampaikan makna dalam sekejap, sering kali merupakan hal pertama yang diketahui oleh
+                                            calon klien atau pelanggan tentang bisnis Anda. Foto-foto kami membantu Anda membuat kesan
+                                            pertama yang lebih baik.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-airplane"></i>
+                                        <h4><a href="#">Aerial Photo Video</a></h4>
+                                        <p>Berikan perspektif baru tentang bisnis Anda dengan tampilan udara, kami memberikan solusi terbaik
+                                            untuk kebutuhan fotografi dan videografi digital udara Anda.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-camera-reels"></i>
+                                        <h4><a href="#">Live Streaming Production</a></h4>
+                                        <p>Memberikan layanan Live Streaming secara Remote, On Location maupun Hybrid untuk tayang pada
+                                            semua Media Sosial, Website, E-Commerce, Zoom dan Lainnya, CV. Arindra Production siap
+                                            menyesuaikan setiap kebutuhan Anda dengan Harga Terjangkau!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-file-earmark-music"></i>
+                                        <h4><a href="#">Music Production & Publishing</a></h4>
+                                        <p>Memberikan layanan Music Production seperti pembuatan Theme Song, Pembuatan Jingle, Pembuatan
+                                            Soundtrack, Pembuatan Film Score, Dan Music Publishing, CV. Arindra Production siap menyesuaikan
+                                            setiap kebutuhan Anda dengan Harga Kompetitif!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-controller"></i>
+                                        <h4><a href="#">E-Sport Production</a></h4>
+                                        <p>Arindra Production menyediakan segala kebutuhan teknis dan SDM untuk menjalankan kompetisi Esport
+                                            secara Online maupun Offline. Mulai dari SDM dan Peralatan Terbaik untuk Observer In Game,
+                                            Broadcast hingga Studio Caster dengan desain layout untuk kebutuhan Live Streaming pada saat In
+                                            Game.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-
-                        <div class="row text-center">
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-camera-video"></i>
-                                    <h4><a href="#">Video Production</a></h4>
-                                    <p>Sampaikan semua cerita Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                                        kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                                        merangkum esensi merek Anda.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-camera"></i>
-                                    <h4><a href="#">Photography</a></h4>
-                                    <p>Gambar menyampaikan makna dalam sekejap, sering kali merupakan hal pertama yang diketahui oleh
-                                        calon klien atau pelanggan tentang bisnis Anda. Foto-foto kami membantu Anda membuat kesan
-                                        pertama yang lebih baik.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-airplane"></i>
-                                    <h4><a href="#">Aerial Photo Video</a></h4>
-                                    <p>Berikan perspektif baru tentang bisnis Anda dengan tampilan udara, kami memberikan solusi terbaik
-                                        untuk kebutuhan fotografi dan videografi digital udara Anda.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-camera-reels"></i>
-                                    <h4><a href="#">Live Streaming Production</a></h4>
-                                    <p>Memberikan layanan Live Streaming secara Remote, On Location maupun Hybrid untuk tayang pada
-                                        semua Media Sosial, Website, E-Commerce, Zoom dan Lainnya, CV. Arindra Production siap
-                                        menyesuaikan setiap kebutuhan Anda dengan Harga Terjangkau!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-file-earmark-music"></i>
-                                    <h4><a href="#">Music Production & Publishing</a></h4>
-                                    <p>Memberikan layanan Music Production seperti pembuatan Theme Song, Pembuatan Jingle, Pembuatan
-                                        Soundtrack, Pembuatan Film Score, Dan Music Publishing, CV. Arindra Production siap menyesuaikan
-                                        setiap kebutuhan Anda dengan Harga Kompetitif!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box">
-                                    <i class="bi bi-controller"></i>
-                                    <h4><a href="#">E-Sport Production</a></h4>
-                                    <p>Arindra Production menyediakan segala kebutuhan teknis dan SDM untuk menjalankan kompetisi Esport
-                                        secara Online maupun Offline. Mulai dari SDM dan Peralatan Terbaik untuk Observer In Game,
-                                        Broadcast hingga Studio Caster dengan desain layout untuk kebutuhan Live Streaming pada saat In
-                                        Game.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>======= -->
+                    </section>======= -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
