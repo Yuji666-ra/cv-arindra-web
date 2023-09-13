@@ -292,7 +292,7 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
+                            <a href="{{ route('projects/dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
