@@ -26,4 +26,7 @@ Route::get('/detail', function () {
     return view('projects.detail');
 });
 
-Route::get('/dbl',[ProjectController::class, 'dbl'])->name('dbl');
+Route::get('projects/dbl',[ProjectController::class, 'dbl'])->name('projects/dbl');
+Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/camp');
+Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
+Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
