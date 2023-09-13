@@ -205,7 +205,7 @@
                             <li>Jasa pengambilan dan pengeditan video company profile</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/company')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                             <li>Jasa pengambilan video event terkhusus untuk after movie event</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/video')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                             <li>Jasa pengambilan dan pengeditan photo-photo event skala besar ataupun kecil</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/photo')}}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
                             <li>Jasa pengambilan footage berupa video atau photo melalui alat drone dan pilot</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List
+                            <a href="{{ route('price/drone')}}" class="btn-buy">Check Price List
                             </a>
                         </div>
                     </div>
