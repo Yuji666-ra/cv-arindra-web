@@ -32,6 +32,8 @@ Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/c
 Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
 Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
 
+Route::get('career',[ProjectController::class, 'career'])->name('career');
+
 Route::get('price/company',[PriceController::class, 'company'])->name('price/company');
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');

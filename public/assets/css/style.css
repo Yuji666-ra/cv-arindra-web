@@ -6,44 +6,47 @@ body {
 }
 
 .btn-primary {
-    background-color: #0000FF;
-    border-radius: 10px;
-    border-color: #0000FF;
-    padding: 10px 45px;
+    background-color: #473FF4;
+    border-radius: 30px;
+    border-color: #473FF4;
+    padding: 10px 30px;
     color: white;
 }
 
 .btn-outline-primary {
     background-color: transparent;
     border-radius: 10px;
-    border-color: #0000FF;
+    border-color: #473FF4;
     padding: 10px 45px;
-    color: #0000FF;
+    color: #473FF4;
     margin-top: 30px;
 }
 
 /*Navbar*/
 .navbar {
-    margin-top: 10px; /* Atur margin atas sesuai dengan kebutuhan Anda */
-    margin-bottom: 10px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
+    margin-top: 0px; /* Atur margin atas sesuai dengan kebutuhan Anda */
+    margin-bottom: 0px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
+    padding-left: 10px; /* Atur padding kiri sesuai kebutuhan Anda */
+    padding-right: 10px; /* Atur padding kanan sesuai kebutuhan Anda */
 }
 .navbar-expand-lg {
-    max-width: 1100px; /* Atur lebar maksimum sesuai kebutuhan Anda */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 2000px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav-item .nav-link {
     font-size: 17px;
-    margin-left: 6px; /* Atur margin kiri lebih besar */
-    margin-right: 6px; /* Atur margin kanan lebih besar */
+    padding-left: 20px; /* Atur jarak kiri sesuai kebutuhan Anda */
+    padding-right: 20px; /* Atur jarak kanan sesuai kebutuhan Anda */
+
 }
 
 /*Footer kolom-1*/
 .nav-item2 {
-    font-size: 14px;
-    margin-left: 3px;
-    margin-right: 3px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .scroll-nav-active {
@@ -52,13 +55,8 @@ body {
     left: 0;
     width: 100%; /* Menentukan lebar elemen */
     padding: 80px; /* Atur padding untuk ruang di sebelah kiri dan kanan */
-    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
-    border-radius: 20px 20px 20px 20px; /* Border radius pada sudut bawah */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-   /* border-bottom: 1px solid #0000FF;*/
-    /*box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, .08);*/
-    mask-image: url("../../assets/images/logo-dark.png");
+    background-color: #fff; /* Warna latar belakang putih */
+
 }
 
 .text-nav-active {
@@ -74,6 +72,8 @@ body {
     background-size: cover;
     background-position: center;
     height: 650px;
+    padding-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    padding-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
 }
 
 #background-video {
@@ -89,7 +89,7 @@ body {
 }
 
 .hero-title {
-    padding-top: 230px;
+    padding-top: 200px;
     padding-bottom: 0px;
 
 }
@@ -105,6 +105,12 @@ body {
     font-size: 18px; /* Sesuaikan dengan ukuran yang Anda inginkan */
     font-weight: 600;
     margin-top: 20px;
+    display: inline-block; /* Mengubah elemen menjadi inline-block */
+    padding-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    padding-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
+    margin-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    margin-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
 }
 
 /*Button hero */
@@ -112,11 +118,31 @@ body {
     border-radius: 10px; /* Sesuaikan dengan nilai radius yang Anda inginkan */
 }
 
+/*Button Cover*/
+/* CSS untuk tombol dengan border radius */
+.custom-button {
+    margin-top: 38px;
+    background-color: #473FF4; /* Warna latar belakang tombol sesuaikan dengan keinginan Anda */
+    color: #fff; /* Warna teks tombol sesuaikan dengan keinginan Anda */
+    padding: 10px 20px; /* Sesuaikan padding tombol dengan keinginan Anda */
+    border-radius: 30px; /* Menentukan border radius untuk membentuk tombol */
+    display: inline-block; /* Agar tombol tampil dalam satu baris */
+    text-align: center; /* Teks berada di tengah tombol */
+    text-decoration: none; /* Hilangkan dekorasi teks jika ada */
+}
+
+.custom-button img {
+    vertical-align: middle; /* Mengatur posisi vertikal ikon di tengah teks tombol */
+    margin-left: 5px; /* Atur jarak antara ikon dan teks tombol */
+}
+
 /*Footer*/
 #footer{
     margin-top: 80px;
     background-color: #343a40;
 }
+
+
 
 /*Responsive layar kecil 450*/
 @media screen and (min-width:450px){
