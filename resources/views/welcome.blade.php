@@ -9,7 +9,7 @@
         </video>
         <div class="container text-center ">
             <div class="hero-title" data-aos="fade-up">
-                <div class="hero-text text-white">Capturing Moments &<br> Crafting Memories With Us</div>
+                <div class="hero-text text-white">Cv Arindra Production</div>
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya</h4>
                 </div>
