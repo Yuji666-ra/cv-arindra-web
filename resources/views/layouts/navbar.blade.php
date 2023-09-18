@@ -26,9 +26,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Video Event</a></li>
                         <li><a class="dropdown-item" href="#">Documenter Film</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
                         <li><a class="dropdown-item" href="#">Photo Event</a></li>
                     </ul>
                 </li>
@@ -41,11 +38,7 @@
                         More
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Showreel</a></li>
-                        <li><a class="dropdown-item" href="#">Karir</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+                        <li><a class="dropdown-item" href="{{ route('career')}}">Karir</a></li>
                         <li><a class="dropdown-item" href="#">Clients</a></li>
                     </ul>
                 </li>
