@@ -9,7 +9,7 @@
         </video>
         <div class="container text-center ">
             <div class="hero-title" data-aos="fade-up">
-                <div class="hero-text text-white">Capturing Moments &<br> Crafting Memories With Us</div>
+                <div class="hero-text text-white">CV Arindra Production</div>
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya, that creates creative video and photography. <br>We
                         make digital content, promos, commercials, music videos.</h4>
@@ -72,7 +72,7 @@
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
 
                     <div class="content">
-                        <h3>Kenapa Memilih <strong>Arindra Production</strong></h3>
+                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
                         <p>
                             CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
                             Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
