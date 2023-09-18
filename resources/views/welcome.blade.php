@@ -45,7 +45,7 @@
     </section>
 
     <!--Mitra -->
-    <!--<div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
+    <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
             <section class="customer-logos slider col-xxl-9">
                 <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
                 <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
@@ -55,7 +55,7 @@
                 <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
                 <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
             </section>
-        </div>-->
+        </div>
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -192,75 +192,6 @@
 
         </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Services Section
-                            <section id="services" class="services">
-                                <div class="container" data-aos="zoom-in" style="margin-top: 80px">
-
-                                    <div class="section-title text-center">
-                                        <h2 class="fw-bold mb-2">Our Services</h2>
-                                        <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
-                                    </div>
-
-                                    <div class="row text-center">
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-camera-video"></i>
-                                                <h4><a href="#">Video Production</a></h4>
-                                                <p>Sampaikan semua cerita Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                                                    kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                                                    merangkum esensi merek Anda.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-camera"></i>
-                                                <h4><a href="#">Photography</a></h4>
-                                                <p>Gambar menyampaikan makna dalam sekejap, sering kali merupakan hal pertama yang diketahui oleh
-                                                    calon klien atau pelanggan tentang bisnis Anda. Foto-foto kami membantu Anda membuat kesan
-                                                    pertama yang lebih baik.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-airplane"></i>
-                                                <h4><a href="#">Aerial Photo Video</a></h4>
-                                                <p>Berikan perspektif baru tentang bisnis Anda dengan tampilan udara, kami memberikan solusi terbaik
-                                                    untuk kebutuhan fotografi dan videografi digital udara Anda.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-camera-reels"></i>
-                                                <h4><a href="#">Live Streaming Production</a></h4>
-                                                <p>Memberikan layanan Live Streaming secara Remote, On Location maupun Hybrid untuk tayang pada
-                                                    semua Media Sosial, Website, E-Commerce, Zoom dan Lainnya, CV. Arindra Production siap
-                                                    menyesuaikan setiap kebutuhan Anda dengan Harga Terjangkau!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-file-earmark-music"></i>
-                                                <h4><a href="#">Music Production & Publishing</a></h4>
-                                                <p>Memberikan layanan Music Production seperti pembuatan Theme Song, Pembuatan Jingle, Pembuatan
-                                                    Soundtrack, Pembuatan Film Score, Dan Music Publishing, CV. Arindra Production siap menyesuaikan
-                                                    setiap kebutuhan Anda dengan Harga Kompetitif!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                                            <div class="icon-box">
-                                                <i class="bi bi-controller"></i>
-                                                <h4><a href="#">E-Sport Production</a></h4>
-                                                <p>Arindra Production menyediakan segala kebutuhan teknis dan SDM untuk menjalankan kompetisi Esport
-                                                    secara Online maupun Offline. Mulai dari SDM dan Peralatan Terbaik untuk Observer In Game,
-                                                    Broadcast hingga Studio Caster dengan desain layout untuk kebutuhan Live Streaming pada saat In
-                                                    Game.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </section>======= -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -516,4 +447,74 @@
             </div>
         </div>
     </section><!-- End portfolio Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+              <div class="section-title header-project text-center" data-aos="zoom-in">
+                <h2>Contact</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              </div>
+
+              <div class="row">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      <h4>Location:</h4>
+                      <p>Bendul Merisi Selatan 3 No. 102, Surabaya, Jawa Timur, Indonesia 60239</p>
+                    </div>
+
+                    <div class="email">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>info@arindraproduction.co.id</p>
+                    </div>
+
+                    <div class="phone">
+                      <i class="bi bi-phone"></i>
+                      <h4>Call:</h4>
+                      <p>0812-5220-0899</p>
+                    </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3834993470846!2d112.74222817449375!3d-7.310742292697152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb0e881ce1e5%3A0x9eb06cd487b3ebf3!2sCV.%20Arindra%20Production%20Surabaya!5e0!3m2!1sen!2sus!4v1695007016304!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="form-group col-md-6">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="name">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Subject</label>
+                      <input type="text" class="form-control" name="subject" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Message</label>
+                      <textarea class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                  </form>
+                </div>
+
+              </div>
+
+            </div>
+          </section><!-- End Contact Section -->
 @endsection
