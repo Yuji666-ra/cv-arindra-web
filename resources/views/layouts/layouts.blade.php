@@ -102,8 +102,6 @@ scale=1.0">
                         <p>Bergabunglah dengan jaringan sosial kami dan nikmati konten eksklusif serta berita terkini!
                         </p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                             <a href="https://www.instagram.com/arindraproduction/" class="instagram"><i class="bi bi-instagram"></i></a>
                             <a href="https://www.tiktok.com/@cvarindraproduction" class="google-plus"><i class="bi bi-tiktok"></i></a>
                             <a href="https://www.linkedin.com/company/cv-arindra-production/" class="linkedin"><i class="bi bi-linkedin"></i></a>

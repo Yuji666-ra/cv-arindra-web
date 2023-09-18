@@ -294,7 +294,7 @@
             <div class="row py-2" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
+                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
                             width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">8/08/2023</p>
@@ -309,7 +309,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
+                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
                             width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">1/03/2023</p>
@@ -323,7 +323,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
+                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
                             width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">10/01/2023</p>
