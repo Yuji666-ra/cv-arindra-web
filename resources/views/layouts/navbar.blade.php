@@ -2,7 +2,7 @@
 <nav
     class="navbar navbar-expand-lg navbar-dark py-3 fixed-top {{ Request::segment(1) == '' ? '' : 'bg-white shadow text-dark' }}">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
             <img src="{{ asset('assets/icons/logo.png') }}" height="60" width="60" alt=>
         </a>
 
