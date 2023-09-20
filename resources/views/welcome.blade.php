@@ -315,7 +315,7 @@
             </div>
 
             <div class="footer-project text-center">
-                <a href="{{ route('projects/project') }}" class="btn btn-outline-primary">Project Lainnya</a>
+                <a href="{{ route('projects/project') }}" class="btn btn-outline-primary">View More</a>
             </div>
         </div>
     </section>
