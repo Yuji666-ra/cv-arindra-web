@@ -335,23 +335,6 @@
         </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container">
-
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Contact Us</h3>
-                    <p> Hubungi kami untuk jalin kerja sama yang baik. Boleh untuk sekedar bertanya-tanya terlebih dahulu.
-                    </p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Contact Us</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <!--Success Project-->
     <section id="project" class="py-5">
