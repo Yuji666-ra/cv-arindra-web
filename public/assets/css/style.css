@@ -31,8 +31,7 @@ body {
 }
 .navbar-expand-lg {
     max-width: 2000px; /* Atur lebar maksimum sesuai kebutuhan Anda */
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 
 .nav-item .nav-link {

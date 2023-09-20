@@ -44,7 +44,7 @@
                 </li>
             </ul>
             <div class="d-flex ml-auto">
-                <button class="btn btn-primary">Contact Us</button>
+                <button class="btn btn-primary" href="{{ route('contact')}}">Contact Us</button>
             </div>
         </div>
     </div>

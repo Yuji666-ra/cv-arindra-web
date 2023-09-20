@@ -264,23 +264,6 @@
         </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container">
-
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Contact Us</h3>
-                    <p> Hubungi kami untuk jalin kerja sama yang baik. Boleh untuk sekedar bertanya-tanya terlebih dahulu.
-                    </p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Contact Us</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <!--Success Project-->
     <section id="project" class="py-5">
@@ -302,8 +285,6 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('projects/dbl') }}"
-                                class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -316,8 +297,6 @@
                             <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
-                            <a href="{{ route('projects/camp') }}"
-                                class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -330,8 +309,6 @@
                             <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
                                 mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
-                            <a href="{{ route('projects/esport') }}"
-                                class="text-decoration-none text-primary ">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -486,7 +463,7 @@
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <form action="" method="post" role="form" class="php-email-form">
                     <div class="row">
                       <div class="form-group col-md-6">
                         <label for="name">Your Name</label>
@@ -510,12 +487,13 @@
                       <div class="error-message"></div>
                       <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
+                    <div href="" class="text-center"><button type="submit">Send Message</button></div>
                   </form>
                 </div>
 
               </div>
 
             </div>
-          </section><!-- End Contact Section -->
+          </section>
+        <!-- End Contact Section -->
 @endsection

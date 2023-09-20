@@ -25,4 +25,10 @@ class ProjectController extends Controller
     public function career(){
         return view('career');
     }
+
+    public function contact(){
+        return view('contact');
+    }
+
+
 }
