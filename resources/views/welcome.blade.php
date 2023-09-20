@@ -9,7 +9,7 @@
         </video>
         <div class="container text-center ">
             <div class="hero-title" data-aos="fade-up">
-                <div class="hero-text text-white">CV Arindra Production</div>
+                <div class="hero-text text-white">CV. Arindra Production</div>
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya, that creates creative video and photography. <br>We
                         make digital content, promos, commercials, music videos.</h4>
@@ -48,13 +48,13 @@
     <!--Mitra -->
     <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
             <section class="customer-logos slider col-xxl-9">
-                <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/3.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/4.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/5.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/1.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/2.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/3.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/4.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/5.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/6.png" class="img-fluid" alt=""></div>
+                <div class="slide"><img src="assets/images/Mitra/7.png" class="img-fluid" alt=""></div>
             </section>
         </div>
 
@@ -264,62 +264,6 @@
         </div>
     </section><!-- End Pricing Section -->
 
-
-    <!--Success Project-->
-    <section id="project" class="py-5">
-        <div class="container py-5">
-
-            <div class="section-title header-project text-center" data-aos="fade-up">
-                <h2 class="fw-bold">Success Project</h2>
-                <p>View our Success Project</p>
-            </div>
-
-            <div class="row py-2" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
-                        <div class="konten-project">
-                            <p class="mb-3 text-secondary">8/08/2023</p>
-                            <h5 class="fw-bold mb-3">DBL Junior East Java Series 2023</h5>
-                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
-                                mendokumentasikan salah satu acara tahunan
-                                bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
-                        <div class="konten-project">
-                            <p class="mb-3 text-secondary">1/03/2023</p>
-                            <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
-                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
-                                mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
-                        <div class="konten-project">
-                            <p class="mb-3 text-secondary">10/01/2023</p>
-                            <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
-                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
-                                mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-project text-center">
-                <a href="{{ route('projects/project') }}" class="btn btn-outline-primary">View More</a>
-            </div>
-        </div>
-    </section>
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container py-5">
@@ -425,6 +369,61 @@
             </div>
         </div>
     </section><!-- End portfolio Section -->
+
+    <!--Success Project-->
+    <section id="project" class="py-5">
+        <div class="container py-5">
+
+            <div class="section-title header-project text-center" data-aos="fade-up">
+                <h2 class="fw-bold">Success Project</h2>
+                <p>View our Success Project</p>
+            </div>
+
+            <div class="row py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
+                            width="350" alt="">
+                        <div class="konten-project">
+                            <p class="mb-3 text-secondary">8/08/2023</p>
+                            <h5 class="fw-bold mb-3">DBL Junior East Java Series 2023</h5>
+                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
+                                mendokumentasikan salah satu acara tahunan
+                                bergengsi yaitu DBL Junior East Java Series 2023 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
+                            width="350" alt="">
+                        <div class="konten-project">
+                            <p class="mb-3 text-secondary">1/03/2023</p>
+                            <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
+                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
+                                mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
+                            width="350" alt="">
+                        <div class="konten-project">
+                            <p class="mb-3 text-secondary">10/01/2023</p>
+                            <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
+                            <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
+                                mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-project text-center">
+                <a href="{{ route('projects/project') }}" class="btn btn-outline-primary">View More</a>
+            </div>
+        </div>
+    </section>
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
