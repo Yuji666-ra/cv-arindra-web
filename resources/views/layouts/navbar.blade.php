@@ -32,6 +32,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Pricelist</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ route('contact')}}">Contact Us</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -39,13 +42,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('career')}}">Karir</a></li>
-                        <li><a class="dropdown-item" href="#">Clients</a></li>
+                        <li><a class="dropdown-item" href="">Clients</a></li>
                     </ul>
                 </li>
             </ul>
-            <div class="d-flex ml-auto">
-                <button class="btn btn-primary" href="{{ route('contact')}}">Contact Us</button>
-            </div>
         </div>
     </div>
 </nav>
