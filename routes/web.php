@@ -33,6 +33,7 @@ Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projec
 Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
 
 Route::get('career',[ProjectController::class, 'career'])->name('career');
+Route::get('contact',[ProjectController::class, 'contact'])->name('contact');
 
 Route::get('price/company',[PriceController::class, 'company'])->name('price/company');
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
