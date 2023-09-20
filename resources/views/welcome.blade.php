@@ -46,7 +46,6 @@
     </section>
 
     <!--Mitra -->
-<<<<<<< HEAD
     <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
             <section class="customer-logos slider col-xxl-9">
                 <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
@@ -58,19 +57,6 @@
                 <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
             </section>
         </div>
-=======
-    <!--<div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
-                                            <section class="customer-logos slider col-xxl-9">
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/3.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/4.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/5.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
-                                                <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
-                                            </section>
-                                        </div>-->
->>>>>>> 5c8927de0fa9aaf40eca72e599de410d95289cd5
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -208,8 +194,7 @@
         </div>
     </section><!-- End Services Section -->
 
-<<<<<<< HEAD
-=======
+
     <!-- ======= Services Section
                                                             <section id="services" class="services">
                                                                 <div class="container" data-aos="zoom-in" style="margin-top: 80px">
@@ -279,7 +264,7 @@
                                                                 </div>
                                                             </section>======= -->
 
->>>>>>> 5c8927de0fa9aaf40eca72e599de410d95289cd5
+
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up" style="margin-top: 80px">
