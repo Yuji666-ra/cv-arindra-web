@@ -9,7 +9,7 @@
         </video>
         <div class="container text-center ">
             <div class="hero-title" data-aos="fade-up">
-                <div class="hero-text text-white">Capturing Moments &<br> Crafting Memories With Us</div>
+                <div class="hero-text text-white">CV Arindra Production</div>
                 <div class="text-secondary">
                     <h4>A production house originating from Surabaya, that creates creative video and photography. <br>We
                         make digital content, promos, commercials, music videos.</h4>
@@ -525,7 +525,7 @@
             <div class="container" data-aos="fade-up">
 
               <div class="section-title header-project text-center" data-aos="zoom-in">
-                <h2>Contact</h2>
+                <h2>Order</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
               </div>
 
