@@ -373,8 +373,6 @@
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('projects/dbl') }}"
-                                class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -387,8 +385,6 @@
                             <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
-                            <a href="{{ route('projects/camp') }}"
-                                class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -401,8 +397,6 @@
                             <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
                                 mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
-                            <a href="{{ route('projects/esport') }}"
-                                class="text-decoration-none text-primary ">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
