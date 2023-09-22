@@ -17,11 +17,11 @@
                 <h3 style="background-color: #4CAF50; color: white" >Bronze</h3>
                 <h4 style="color: #4CAF50;"><sup>Rp</sup>10-19 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>1 Day Production</li>
+                  <li>3-5 Minute Duration</li>
+                  <li>Basic Camera Movement (Tripod & Slider)</li>
+                  <li>Aerial Footage</li>
+                  <li>Only 1 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
@@ -34,11 +34,15 @@
                 <h3 style="background-color: #FC9236; color: white">Silver</h3>
                 <h4 style="color: #FC9236;"><sup>Rp</sup>25-45 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>2-3 Days Production</li>
+                  <li>1 Main Video 4-8 Minutes Duration</li>
+                  <li>3 Additional Videos Of 1 Minute</li>
+                  <li>Spontaneous Interview</li>
+                  <li>1 Talent</li>
+                  <li>Basic Camera Movement (Tripod,Slider,Stabilizer)</li>
+                  <li>Aerial Footage</li>
+                  <li>DVD Masters and Flash Disk</li>
+                  <li>2 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
@@ -52,11 +56,20 @@
                 <h3>Gold</h3>
                 <h4><sup>Rp</sup>50-100 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>3-5 days production</li>
+                  <li>1 Main Video 5-15 Minutes Duration</li>
+                  <li>5 Additional Videos of 1 Minutes Duration</li>
+                  <li>Scripted Interview</li>
+                  <li>Voice Over</li>
+                  <li>2-5 Talent</li>
+                  <li>Director of Photography</li>
+                  <li>Producers</li>
+                  <li>Basic Camera Movement (tripod,slider,Stabilizer)</li>
+                  <li>Aerial Shot</li>
+                  <li>Dvd Master (5), Flasdisk (3), HDD External</li>
+                  <li>Professional Photography</li>
+                  <li>Photo & Video Behind The Scene</li>
+                  <li>3 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy">Buy Now</a>

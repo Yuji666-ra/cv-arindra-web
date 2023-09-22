@@ -26,11 +26,11 @@ body {
 .navbar {
     margin-top: 0px; /* Atur margin atas sesuai dengan kebutuhan Anda */
     margin-bottom: 0px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
-    padding-left: 10px; /* Atur padding kiri sesuai kebutuhan Anda */
-    padding-right: 10px; /* Atur padding kanan sesuai kebutuhan Anda */
+    padding-left: 4px; /* Atur padding kiri sesuai kebutuhan Anda */
+    padding-right: 4px; /* Atur padding kanan sesuai kebutuhan Anda */
 }
 .navbar-expand-lg {
-    max-width: 2000px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+    max-width: 1400px; /* Atur lebar maksimum sesuai kebutuhan Anda */
 
 }
 
@@ -71,8 +71,8 @@ body {
     background-size: cover;
     background-position: center;
     height: 650px;
-    padding-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
-    padding-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
+    padding-left: 25px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    padding-right: 25px; /* Atur lebar kanan sesuai kebutuhan Anda */
 }
 
 #background-video {

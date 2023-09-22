@@ -17,11 +17,12 @@
                 <h3 style="background-color: #4CAF50; color: white" >Bronze</h3>
                 <h4 style="color: #4CAF50;"><sup>Rp</sup>2.5-4.5 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>1 Videographer</li>
+                  <li>Main Video (3-5 min)</li>
+                  <li>Teaser Video (1 min)</li>
+                  <li>Aerial Footage</li>
+                  <li>Video Upload in Google Drive</li>
+                  <li>Only 1 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
@@ -34,11 +35,15 @@
                 <h3 style="background-color: #FC9236; color: white">Silver</h3>
                 <h4 style="color: #FC9236;"><sup>Rp</sup>5-7 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>2 Videographer</li>
+                  <li>Main Video (3-5 min)</li>
+                  <li>Teaser Video (1 min)</li>
+                  <li>Aerial Footage</li>
+                  <li>Interview</li>
+                  <li>Royalty Free Audio</li>
+                  <li>Video Upload in Google Drive</li>
+                  <li>DVD Master</li>
+                  <li>2 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
@@ -52,11 +57,16 @@
                 <h3>Gold</h3>
                 <h4><sup>Rp</sup>7.5-10 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                    <li>3 Videographer</li>
+                    <li>Main Video (3-5 min)</li>
+                    <li>Teaser Video (1 min)</li>
+                    <li>Long Video (1 hour)</li>
+                    <li>Aerial Footage</li>
+                    <li>Interview</li>
+                    <li>Royalty Free Audio</li>
+                    <li>Video Upload in Google Drive</li>
+                    <li>DVD Master + USB</li>
+                    <li>3 Revision</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy">Buy Now</a>

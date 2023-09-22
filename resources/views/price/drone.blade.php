@@ -18,11 +18,10 @@
                         <h3 style="background-color: #4CAF50; color: white" >Paket Eceran Baterai</h3>
                         <h4 style="color: #4CAF50;"><sup>Rp</sup>1 JT<span></span></h4>
                         <ul>
-                          <li>Aida dere</li>
-                          <li>Nec feugiat nisl</li>
-                          <li>Nulla at volutpat dola</li>
-                          <li>Pharetra massa</li>
-                          <li>Massa ultricies mi</li>
+                          <li>DJI MAVIC PRO</li>
+                          <li>PILOT DRONE KAMI SUDAH BERSERTIFIKASI APDI</li>
+                          <li>DRONE KAMI SUDAH BEREGRITERS KEMENTRIAN PERHUBUNGAN KELAYAKAN UDARA</li>
+                          <li>1 Baterai (22 Menit, tergantung kecepatan angin di lokasi)</li>
                         </ul>
                         <div class="btn-wrap">
                           <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
@@ -35,11 +34,12 @@
                         <h3 style="background-color: #FC9236; color: white">Paket Half Day Services</h3>
                         <h4 style="color: #FC9236;"><sup>Rp</sup>1.5 JT<span></span></h4>
                         <ul>
-                          <li>Aida dere</li>
-                          <li>Nec feugiat nisl</li>
-                          <li>Nulla at volutpat dola</li>
-                          <li>Pharetra massa</li>
-                          <li>Massa ultricies mi</li>
+                            <li>DJI MAVIC PRO</li>
+                            <li>PILOT DRONE KAMI SUDAH BERSERTIFIKASI APDI</li>
+                            <li>DRONE KAMI SUDAH BEREGRITERS KEMENTRIAN PERHUBUNGAN KELAYAKAN UDARA</li>
+                            <li>4 Jam Kerja</li>
+                            <li>2 Baterai + Charge</li>
+                            <li>Raw foto/ Video</li>
                         </ul>
                         <div class="btn-wrap">
                           <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
@@ -53,11 +53,13 @@
                         <h3>Paket Full Day Services</h3>
                         <h4><sup>Rp</sup>1.8 JT<span></span></h4>
                         <ul>
-                          <li>Aida dere</li>
-                          <li>Nec feugiat nisl</li>
-                          <li>Nulla at volutpat dola</li>
-                          <li>Pharetra massa</li>
-                          <li>Massa ultricies mi</li>
+                            <li>DJI MAVIC PRO</li>
+                            <li>PILOT DRONE KAMI SUDAH BERSERTIFIKASI APDI</li>
+                            <li>DRONE KAMI SUDAH BEREGRITERS KEMENTRIAN PERHUBUNGAN KELAYAKAN UDARA</li>
+                            <li>8 Jam Kerja</li>
+                            <li>3 Baterai + Charge</li>
+                            <li>Raw foto/ Video</li>
+                            <li>Bonus Editing</li>
                         </ul>
                         <div class="btn-wrap">
                           <a href="#" class="btn-buy">Buy Now</a>

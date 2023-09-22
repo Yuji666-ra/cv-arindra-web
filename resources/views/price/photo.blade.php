@@ -17,11 +17,9 @@
                 <h3 style="background-color: #4CAF50; color: white" >Bronze</h3>
                 <h4 style="color: #4CAF50;"><sup>Rp</sup>1.5-2.5 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>1 Photographer</li>
+                  <li>Standard Photo Documentation</li>
+                  <li>Upload to Google Drive</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
@@ -34,11 +32,11 @@
                 <h3 style="background-color: #FC9236; color: white">Silver</h3>
                 <h4 style="color: #FC9236;"><sup>Rp</sup>3-5 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                  <li>2 Photographers</li>
+                  <li>Standard Photo Documentation</li>
+                  <li>Candid Photo Unlimited</li>
+                  <li>15s Album</li>
+                  <li>Upload to Google Drive + DVD</li>
                 </ul>
                 <div class="btn-wrap">
                   <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
@@ -52,11 +50,14 @@
                 <h3>Gold</h3>
                 <h4><sup>Rp</sup>7.5-10 JT<span></span></h4>
                 <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
+                    <li>3 Photographers</li>
+                    <li>Standard Photo Documentation</li>
+                    <li>Candid Photo Unlimited</li>
+                    <li>Aerial Photo</li>
+                    <li>30s Album</li>
+                    <li>Photo Frame</li>
+                    <li>Edited Photos</li>
+                    <li>Upload to Google Drive + DVD + USB</li>
                 </ul>
                 <div class="btn-wrap">
                   <a href="#" class="btn-buy">Buy Now</a>
