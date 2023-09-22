@@ -22,8 +22,8 @@ class ProjectController extends Controller
         return view('projects/project');
     }
 
-    public function career(){
-        return view('career');
+    public function careers(){
+        return view('careers');
     }
 
     public function contact(){
