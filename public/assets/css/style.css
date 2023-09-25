@@ -396,10 +396,6 @@ body {
     text-decoration: none;
   }
 
-  .services .icon-box h4 a:hover {
-    color: #f6b024;
-  }
-
   .services .icon-box p {
     line-height: 24px;
     font-size: 14px;
