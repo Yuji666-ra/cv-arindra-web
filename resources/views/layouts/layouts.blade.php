@@ -75,11 +75,11 @@ scale=1.0">
                         <ul class="footer-list">
                             <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Tutorial</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{route('footer/tutorial')}}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Pricelist</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Career</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{route('careers')}}">Career</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portofolio</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Showreels</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="https://youtu.be/_N6rkrr5LKA">Showreels</a></li>
                         </ul>
                     </div>
 

@@ -43,6 +43,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('careers')}}">Karir</a></li>
                         <li><a class="dropdown-item" href="">Clients</a></li>
+                        <li><a class="dropdown-item" href="{{ route('footer/tutorial')}}">Tutorial</a></li>
                     </ul>
                 </li>
             </ul>

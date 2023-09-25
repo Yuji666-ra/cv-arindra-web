@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\PriceController;
+use App\Http\Controllers\FooterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,5 @@ Route::get('price/company',[PriceController::class, 'company'])->name('price/com
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');
 Route::get('price/drone',[PriceController::class, 'drone'])->name('price/drone');
+
+Route::get('footer/tutorial',[FooterController::class, 'tutorial'])->name('footer/tutorial');
