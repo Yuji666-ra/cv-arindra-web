@@ -14,14 +14,14 @@
           <div class="row justify-content-center">
             <div class="col-md-6 d-flex" data-aos="zoom-in">
               <div class="card">
-                <div class="card-img justify-content-center">
-                  <img src="{{ asset('assets/images/tutorial/adobe-premiere.png') }}" alt="adobe-premiere" height="200"
-                  width="200">
+                <div class="card-img-content-center">
+                  <img src="{{ asset('assets/images/tutorial/adobe-premiere.png') }}" alt="adobe-premiere" height="150"
+                  width="150">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit  sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                  <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                  <div class="read-more"><a href="{{route('footer/premiere')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                 </div>
               </div>
             </div>
@@ -34,20 +34,20 @@
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/final')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/adobe-after-effect.png') }}" alt="final-cut-pro" height="200"
+                    <img src="{{ asset('assets/images/tutorial/adobe-after-effect.png') }}" alt="after-effect" height="200"
                     width="200">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/after')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/davinci')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/lightroom')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/photoshop')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
@@ -99,7 +99,7 @@
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                    <div class="read-more"><a href="{{route('footer/master')}}"><i class="bi bi-arrow-right"></i> Read More</a></div>
                   </div>
                 </div>
               </div>
