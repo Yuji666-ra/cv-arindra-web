@@ -8,11 +8,12 @@
 
           <div class="section-title">
             <h2 data-aos="fade-in">Tutorial</h2>
-            <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p data-aos="fade-in">Magnam dolores commodi suscipi.</p>
           </div>
 
           <div class="row justify-content-center">
-            <div class="col-md-6 d-flex" data-aos="zoom-in">
+
+            <div class="col-md-4 d-flex" data-aos="zoom-in">
               <div class="card">
                 <div class="card-img-content-center">
                   <img src="{{ asset('assets/images/tutorial/adobe-premiere.png') }}" alt="adobe-premiere" height="150"
@@ -25,10 +26,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6 d-flex" data-aos="zoom-in">
+            <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/final-cut-pro.jpg') }}" alt="final-cut-pro" height="200"
+                    <img src="{{ asset('assets/images/tutorial/final-cut-pro.jpg') }}" alt="final-cut-pro" height="150"
                     width="300">
                   </div>
                   <div class="card-body">
@@ -38,11 +39,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 d-flex" data-aos="zoom-in">
+              <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/adobe-after-effect.png') }}" alt="after-effect" height="200"
-                    width="200">
+                    <img src="{{ asset('assets/images/tutorial/adobe-after-effect.png') }}" alt="after-effect" height="150"
+                    width="150">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
@@ -51,11 +52,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 d-flex" data-aos="zoom-in">
+              <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/davinci.jpg') }}" alt="davinci" height="200"
-                    width="200">
+                    <img src="{{ asset('assets/images/tutorial/davinci.jpg') }}" alt="davinci" height="150"
+                    width="150">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
@@ -64,11 +65,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 d-flex" data-aos="zoom-in">
+              <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/lightroom.png') }}" alt="lightroom" height="200"
-                    width="200">
+                    <img src="{{ asset('assets/images/tutorial/lightroom.png') }}" alt="lightroom" height="150"
+                    width="150">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
@@ -77,11 +78,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 d-flex" data-aos="zoom-in">
+              <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/photoshop.png') }}" alt="photoshop" height="200"
-                    width="200">
+                    <img src="{{ asset('assets/images/tutorial/photoshop.png') }}" alt="photoshop" height="150"
+                    width="150">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
@@ -90,11 +91,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 d-flex" data-aos="zoom-in">
+              <div class="col-md-4 d-flex" data-aos="zoom-in">
                 <div class="card">
                   <div class="card-img justify-content-center">
-                    <img src="{{ asset('assets/images/tutorial/kinemaster.png') }}" alt="kinemaster" height="200"
-                    width="200">
+                    <img src="{{ asset('assets/images/tutorial/kinemaster.png') }}" alt="kinemaster" height="150"
+                    width="150">
                   </div>
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Temporibus laudantium</a></h5>
