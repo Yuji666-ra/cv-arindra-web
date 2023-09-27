@@ -75,25 +75,32 @@ scale=1.0">
                         <ul class="footer-list">
                             <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+<<<<<<< HEAD
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Careers</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Pricing</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Showreels</a></li>
+=======
                             <li><i class="bi bi-chevron-right"></i> <a href="{{route('footer/tutorial')}}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Pricelist</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{route('careers')}}">Career</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portofolio</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="https://youtu.be/_N6rkrr5LKA">Showreels</a></li>
+>>>>>>> 70ec830cd2b6fab26ce76b8794bd4be67818e2cf
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
+                        <h4>Tutorial</h4>
                         <ul class="footer-list">
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Video Production</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Photography</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Aerial Photo Video</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Live Streaming Production</a>
-                            </li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">E-sport Production</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Music Production &
-                                    Publishing</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe After Effect</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Lightroom</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Premiere</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Photoshop</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Davinci Resolve</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Final Cut Pro X</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Kinemaster</a></li>
                         </ul>
                     </div>
 
@@ -102,9 +109,12 @@ scale=1.0">
                         <p>Bergabunglah dengan jaringan sosial kami dan nikmati konten eksklusif serta berita terkini!
                         </p>
                         <div class="social-links mt-3">
-                            <a href="https://www.instagram.com/arindraproduction/" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.tiktok.com/@cvarindraproduction" class="google-plus"><i class="bi bi-tiktok"></i></a>
-                            <a href="https://www.linkedin.com/company/cv-arindra-production/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.instagram.com/arindraproduction/" class="instagram"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@cvarindraproduction" class="google-plus"><i
+                                    class="bi bi-tiktok"></i></a>
+                            <a href="https://www.linkedin.com/company/cv-arindra-production/" class="linkedin"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>

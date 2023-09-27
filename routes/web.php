@@ -3,7 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\PriceController;
+<<<<<<< HEAD
+use App\Http\Controllers\ContactController;
+=======
 use App\Http\Controllers\FooterController;
+>>>>>>> 70ec830cd2b6fab26ce76b8794bd4be67818e2cf
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +19,9 @@ use App\Http\Controllers\FooterController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,18 +35,23 @@ Route::get('/detail', function () {
     return view('projects.detail');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('projects/dbl',[ProjectController::class, 'dbl'])->name('projects/dbl');
 Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/camp');
 Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
 Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
-
 Route::get('careers',[ProjectController::class, 'careers'])->name('careers');
-Route::get('contact',[ProjectController::class, 'contact'])->name('contact');
-
 Route::get('price/company',[PriceController::class, 'company'])->name('price/company');
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');
 Route::get('price/drone',[PriceController::class, 'drone'])->name('price/drone');
+<<<<<<< HEAD
+Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
+
+=======
 
 Route::get('footer/tutorial',[FooterController::class, 'tutorial'])->name('footer/tutorial');
 Route::get('footer/premiere',[FooterController::class, 'premiere'])->name('footer/premiere');
@@ -49,3 +61,4 @@ Route::get('footer/davinci',[FooterController::class, 'davinci'])->name('footer/
 Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('footer/lightroom');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
+>>>>>>> 70ec830cd2b6fab26ce76b8794bd4be67818e2cf
