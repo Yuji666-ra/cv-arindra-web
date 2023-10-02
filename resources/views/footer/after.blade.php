@@ -76,5 +76,6 @@
                 </div>
             </div>
         </div>
-      </section><!-- End Services Section -->
+      </section>
+      <!-- End Services Section -->
 @endsection
