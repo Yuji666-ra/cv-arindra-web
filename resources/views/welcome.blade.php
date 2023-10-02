@@ -85,139 +85,6 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-        <div class="container" data-aos="fade-up" style="margin-top: 150px">
-
-            <div class="section-title text-center">
-                <h2 class="fw-bold mb-2">What Services We Offer You</h2>
-                <p>We dedicated to provide high quality production & low cost that can be customized as your needs by our
-                    professional team</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
-                        <h4><a href="#">Video Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera"></i>
-                        <h4><a href="#">Photography</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-image"></i>
-                        <h4><a href="#">Aerial Photo Video</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera-reels"></i>
-                        <h4><a href="#">Live Streaming Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-file-earmark-music"></i>
-                        <h4><a href="#">Music Production & Publishing</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-controller"></i>
-                        <h4><a href="#">E-Sport Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-        <div class="container-fluid" style="margin-top: 80px">
-
-            <div class="row">
-
-                <div class="col-lg-5 align-items-stretch position-relative video-box"
-                    style='background-image: url("assets/images/tumb-youtube.png");' data-aos="fade-right">
-                    <a href="https://youtu.be/_N6rkrr5LKA" class="glightbox play-btn mb-4"></a>
-                </div>
-
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
-
-                    <div class="content">
-                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
-                        <p>
-                            CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
-                            Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
-                            dan Live Streaming.
-                        </p>
-                    </div>
-
-                    <div class="accordion-list">
-                        <ul>
-                            <li data-aos="fade-up" data-aos-delay="100">
-                                <a data-bs-toggle="collapse" class="collapse"
-                                    data-bs-target="#accordion-list-1"><span>01</span> <i
-                                        class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Bisa Mengambil Job Dari Seluruh Indonesia bahkan Worldwide sekalipun.</a>
-                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                    <p>
-
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                    class="collapsed"><span>02</span><i class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Telah membantu ratusan klien dalam menyediakan kebutuhan jasa foto dan video untuk
-                                    berbagai macam kepentingan dan kesempatan. </a>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                    class="collapsed"><span>03</span> <i class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Pelayanan terbaik dengan hasil yang prima dengan harga yang kompetitif dan
-                                    terjangkau.</a>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title text-center" style="margin-top: 90px">
@@ -288,6 +155,71 @@
 
         </div>
     </section><!-- End Services Section -->
+
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+        <div class="container-fluid" style="margin-top: 80px">
+
+            <div class="row">
+
+                <div class="col-lg-5 align-items-stretch position-relative video-box"
+                    style='background-image: url("assets/images/tumb-youtube.png");' data-aos="fade-right">
+                    <a href="https://youtu.be/_N6rkrr5LKA" class="glightbox play-btn mb-4"></a>
+                </div>
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
+
+                    <div class="content">
+                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
+                        <p>
+                            CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
+                            Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
+                            dan Live Streaming.
+                        </p>
+                    </div>
+
+                    <div class="accordion-list">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="100">
+                                <a data-bs-toggle="collapse" class="collapse"
+                                    data-bs-target="#accordion-list-1"><span>01</span> <i
+                                        class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Bisa Mengambil Job Dari Seluruh Indonesia bahkan Worldwide sekalipun.</a>
+                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                    <p>
+
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="200">
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
+                                    class="collapsed"><span>02</span><i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Telah membantu ratusan klien dalam menyediakan kebutuhan jasa foto dan video untuk
+                                    berbagai macam kepentingan dan kesempatan. </a>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="300">
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
+                                    class="collapsed"><span>03</span> <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Pelayanan terbaik dengan hasil yang prima dengan harga yang kompetitif dan
+                                    terjangkau.</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
