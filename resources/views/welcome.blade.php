@@ -2,52 +2,41 @@
 
 @section('content')
     <!--Hero Text-->
-    <section class="home" id="home">
-        <div class="content">
-            <h1>CV. Arindra Production</h1>
-            <p> CV. Arindra Production is a production house originating from Surabaya. With a rich history and an
-                unwavering commitment to excellence</p>
-            <a href="#"><button>Explore more</button></a>
-            <div class="box-container">
-                <div class="box">
-                    <i class="fas fa-camera"></i>
-                    <h3>photography</h3>
-                    <p>Our production is trusted by dozens of clients</p>
-                </div>
-                <div class="box">
-                    <i class="fas fa-video"></i>
-                    <h3>Video Production</h3>
-                    <p>Our production is trusted by dozens of clients</p>
-                </div>
-                <div class="box">
-                    <i class="fas fa-broadcast-tower"></i>
-                    <h3>Live Streaming</h3>
-                    <p>Our production is trusted by dozens of clients</p>
+    <section id="hero" class="px-0">
+        <video autoplay muted loop id="background-video">
+            <source src="{{ asset('assets/videos/bg-vid.mp4') }}" type="video/mp4">
+            <!-- Jika ingin mendukung format video lain, tambahkan sumber tambahan di sini -->
+        </video>
+        <div class="container text-center ">
+            <div class="hero-title" data-aos="fade-up">
+                <div class="hero-text text-white">CV. Arindra Production</div>
+                <div class="text-secondary">
+                    <h4>A production house originating from Surabaya, that creates creative video and photography. <br>We
+                        make digital content, promos, commercials, music videos.</h4>
                 </div>
             </div>
-
-
-
+            <div class="button custom-button">
+                Explore our services
+                <img src="{{ asset('assets/icons/arrow-up-right.svg') }}" height="20" width="16" alt="">
+            </div>
+        </div>
     </section>
 
 
     <!--About Us-->
-    <section id="contact" class="py-5">
-        <div class="container py-5" style="margin-top: 10px;">
+    <section id="about" class="py-5">
+        <div class="container py-5">
             <div class="row d-flex align-items-center" data-aos="fade-right">
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center mb-3">
                         <h5>Get To Know More About Us</h5>
                     </div>
                     <h1 class="fw-bold mb-2">Let's work together</h1>
-
-                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan
-                        terbaik dengan hasil
+                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
                     <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
-                    <img src="{{ asset('assets/images/experience.png') }}" class="img-fluid" alt="..."
-                        style="margin-top: 20px; margin-left: -23px;">
+                    <button class="btn btn-outline-primary">Learn More</button>
                 </div>
                 <div class="col-lg-6">
                     <img src="{{ asset('assets/images/contactPict.png') }}" class="img-fluid" alt="...">
@@ -57,101 +46,17 @@
     </section>
 
     <!--Mitra -->
-    <section class="section brand">
-        <div class="brand-container container">
-
-            <div class="brand-images">
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/1.png" alt="" class="brand-img">
-                </div>
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/2.png" alt="" class="brand-img">
-                </div>
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/3.png" alt="" class="brand-img">
-                </div>
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/4.png" alt="" class="brand-img">
-                </div>
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/5.png" alt="" class="brand-img">
-                </div>
-                <div class="brand-image">
-                    <img src="assets/images/Mitra/6.png" alt="" class="brand-img">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-        <div class="container" data-aos="fade-up" style="margin-top: 150px">
-
-            <div class="section-title text-center">
-                <h2 class="fw-bold mb-2">What Services We Offer You</h2>
-                <p>We dedicated to provide high quality production & low cost that can be customized as your needs by our
-                    professional team</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
-                        <h4><a href="#">Video Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera"></i>
-                        <h4><a href="#">Photography</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-image"></i>
-                        <h4><a href="#">Aerial Photo Video</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-camera-reels"></i>
-                        <h4><a href="#">Live Streaming Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-file-earmark-music"></i>
-                        <h4><a href="#">Music Production & Publishing</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon-box">
-                        <i class="bi bi-controller"></i>
-                        <h4><a href="#">E-Sport Production</a></h4>
-                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
-                            impression on your audience. We produce high-quality visual content that encapsulates the
-                            essence of your brand.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
+        <section class="customer-logos slider col-xxl-9">
+            <div class="slide"><img src="assets/images/Mitra/1.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/2.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/3.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/4.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/5.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/6.png" class="img-fluid" alt=""></div>
+            <div class="slide"><img src="assets/images/Mitra/7.png" class="img-fluid" alt=""></div>
+        </section>
+    </div>
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">

@@ -1,87 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-:root{
-    --blue:#0000FF;
-    --lightblue:#6464FF;
-}
-
-/*Default page*/
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
-
-h1 {
-    font-size: 4rem; /* Ukuran font h1 sekarang 20px */
-}
-
-p {
-    font-size: 1.8rem; /* Ukuran font paragraf sekarang 14px */
-}
-
-h5 {
-    font-size: 2rem; /* Ukuran font paragraf sekarang 14px */
-}
-
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fff;
-    height: 3000px;
 }
 
+.btn-primary {
+    background-color: #473FF4;
+    border-radius: 30px;
+    border-color: #473FF4;
+    padding: 10px 30px;
+    color: white;
+}
 
-
+.btn-outline-primary {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #473FF4;
+    padding: 10px 45px;
+    color: #473FF4;
+    margin-top: 30px;
+}
 
 /*Navbar*/
 .navbar {
-    margin-top: 10px; /* Atur margin atas sesuai dengan kebutuhan Anda */
-    margin-bottom: 10px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
+    margin-top: 0px; /* Atur margin atas sesuai dengan kebutuhan Anda */
+    margin-bottom: 0px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
+    padding-left: 4px; /* Atur padding kiri sesuai kebutuhan Anda */
+    padding-right: 4px; /* Atur padding kanan sesuai kebutuhan Anda */
 }
 .navbar-expand-lg {
-    max-width: 1100px; /* Atur lebar maksimum sesuai kebutuhan Anda */
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1400px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+
 }
 
 .nav-item .nav-link {
     font-size: 17px;
-    margin-left: 6px; /* Atur margin kiri lebih besar */
-    margin-right: 6px; /* Atur margin kanan lebih besar */
-}
-
-/* Membuat elemen navbar rata tengah */
-.navbar-nav {
-    margin-left: auto;
+    padding-left: 20px; /* Atur jarak kiri sesuai kebutuhan Anda */
+    padding-right: 20px; /* Atur jarak kanan sesuai kebutuhan Anda */
 
 }
-
-/* CSS untuk membuat tautan "Contact Us" rata kanan */
-.navbar-nav .nav-item .ml-auto {
-    margin-left: auto;
-}
-
 
 /*Footer kolom-1*/
 .nav-item2 {
-    font-size: 12px;
-    margin-left: 3px;
-    margin-right: 3px;
-}
-
-.navbar-nav .nav-item button{
-    margin-top: 1px;
-    background: var(--blue);
-    border-radius: 5rem;
-    border: none;
-    height: 4rem;
-    width: 14rem;
-    cursor: pointer;
-    color: #fff;
-    font-size: 1.5rem;
-    transition: .2s;
-
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .scroll-nav-active {
@@ -90,216 +54,93 @@ body {
     left: 0;
     width: 100%; /* Menentukan lebar elemen */
     padding: 80px; /* Atur padding untuk ruang di sebelah kiri dan kanan */
-    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
-    border-radius: 20px 20px 20px 20px; /* Border radius pada sudut bawah */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-   /* border-bottom: 1px solid #0000FF;*/
-    /*box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, .08);*/
-    mask-image: url("../../assets/images/logo-dark.png");
+    background-color: #fff; /* Warna latar belakang putih */
+
 }
 
 .text-nav-active {
     color: white;
 }
 
-/*Hero Edit*/
-.home{
-    min-height: 100vh;
-    background: url(../images/hero-bg.png)no-repeat;
+
+
+/*Hero, Background */
+#hero{
+    overflow: hidden;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
+    height: 650px;
+    padding-left: 25px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    padding-right: 25px; /* Atur lebar kanan sesuai kebutuhan Anda */
 }
 
-.home .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    padding-top: 20rem;
-    padding-bottom: 2rem;
-    text-align: center;
-}
-
-.home .content h1{
-    font-size: 5rem;
-    color: #fff;
-    padding:0 1rem;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-.home .content p{
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 25rem;
-}
-
-.home .content button{
-    margin-top: 1rem;
-    height: 4rem;
-    width: 20rem;
-    border-radius: 5rem;
-    background: var(--blue);
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-    border: none;
-    transition: .2s;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
-}
-
-.home .content button:hover{
-    letter-spacing: .2rem;
-}
-
-
-.home .box-container{
-    margin-top: 4rem; /* Ganti nilai 4rem sesuai kebutuhan Anda */
-    max-width: 1200px;
-    display: flex;
-    justify-content: center; /* Ubah justify-content ke flex-start */
-    flex-wrap: wrap;
-    margin: 0 auto; /* Untuk membuat slider berada di tengah */
-    overflow: hidden; /* Untuk membatasi konten jika slider terlalu lebar */
-
-}
-
-.home .box-container .box{
-    height: 20rem;
-    width: 25rem;
-    background: #fff;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
-    margin: 2rem;
-    cursor: pointer;
-}
-
-
-.home .box-container .box i{
-   height: 6rem;
-   width: 6rem;
-   line-height: 6rem;
-   text-align: center;
-   border-radius: 50%;
-   color: #fff;
-   background: var(--lightblue);
-   font-size: 3rem;
-   margin: 2rem 0;
-   transition: .2s;
-}
-
-.home .box-container .box h3{
-    font-size: 2rem;
-    color: var(--blue);
-    transition: .2s;
-}
-
-.home .box-container .box p{
-    font-size: 1.3rem;
-    padding: .7rem 2rem;
-    color: #666;
-}
-
-.home .box-container .box:hover i{
-    background: var(--blue);
-}
-
-.home .box-container .box:hover h3{
-    color: var(--lightblue);
-}
-
-
-
-/*Hero shape*/
-.home::before{
-    margin-top: 4rem;
-    content: '';
+#background-video {
     position: absolute;
-    bottom:-25rem; left:50% ;
-    transform: translateX(-50%);
-    border-top: 70vh solid #fff;
-    width: 120%;
-    border-radius: 50%;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
     z-index: -1;
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Untuk menjaga proporsi video */
 }
 
+.hero-title {
+    padding-top: 200px;
+    padding-bottom: 0px;
 
-/* About Us */
-.container .btn button{
-    margin-top: 1rem;
-    height: 4rem;
-    width: 20rem;
-    border-radius: 5rem;
-    background: var(--blue);
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-    border: none;
-    transition: .2s;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
 }
 
-.btn-primary {
-    margin-top: 1rem;
-    height: 4rem;
-    width: 20rem;
-    border-radius: 5rem;
-    background: var(--blue);
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-    border: none;
-    transition: .2s;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+/*Hero, Text */
+.hero-text {
+    font-size: 40px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    font-weight: 600;
+
 }
 
-.btn-outline-primary {
-    background-color: transparent;
-    border-radius: 10px;
-    border-color: #0000FF;
-    padding: 10px 45px;
-    color: #0000FF;
+.text-secondary h4 {
+    font-size: 18px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block; /* Mengubah elemen menjadi inline-block */
+    padding-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    padding-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
+    margin-left: 20px; /* Atur lebar kiri sesuai kebutuhan Anda */
+    margin-right: 20px; /* Atur lebar kanan sesuai kebutuhan Anda */
+    box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
+    color: rgb(228, 228, 228);
 }
 
-
-
-/* Brand */
-.brand-container {
-    margin-top: 20px; /* Ganti 20px dengan nilai margin yang Anda inginkan */
+/*Button hero */
+.rounded {
+    border-radius: 10px; /* Sesuaikan dengan nilai radius yang Anda inginkan */
 }
-.section-subtitle {
-    text-align: center;
-}
-.brand-images{
-    display: grid;
-    align-items: center;
-    column-gap: 2rem;
-    justify-content: space-between;
-    justify-items: center;
-    margin-top: 3rem;
-    grid-template-columns: repeat(5,1fr);
-    position: relative; /* Menggunakan position relative agar z-index bekerja */
-    z-index: 2; /* Nilai z-index yang lebih tinggi untuk menempatkan elemen di atas */
-  }
-  .brand-img{
-    width: 150px;
-    object-fit: contain;
-    opacity: 0.4;
-    transition: var(--tran-0-5);
-    float: left;
-    margin-right: 20px;
-  }
-  .brand-img:hover{
-    opacity: 1;
-  }
 
+/*Button Cover*/
+/* CSS untuk tombol dengan border radius */
+.custom-button {
+    margin-top: 38px;
+    background-color: #473FF4; /* Warna latar belakang tombol sesuaikan dengan keinginan Anda */
+    color: #fff; /* Warna teks tombol sesuaikan dengan keinginan Anda */
+    padding: 10px 20px; /* Sesuaikan padding tombol dengan keinginan Anda */
+    border-radius: 30px; /* Menentukan border radius untuk membentuk tombol */
+    display: inline-block; /* Agar tombol tampil dalam satu baris */
+    text-align: center; /* Teks berada di tengah tombol */
+    text-decoration: none; /* Hilangkan dekorasi teks jika ada */
+}
+
+.custom-button img {
+    vertical-align: middle; /* Mengatur posisi vertikal ikon di tengah teks tombol */
+    margin-left: 5px; /* Atur jarak antara ikon dan teks tombol */
+}
+
+/*Footer*/
+#footer{
+    margin-top: 80px;
+    background-color: #343a40;
+}
 
 
 
@@ -357,6 +198,49 @@ body {
     background-color: #ffffff;
 }
 
+/*--------------------------------------------------------------
+# Program BG
+--------------------------------------------------------------*/
+.slick-slide{
+    margin: 15px 0px;
+}
+.slick-slide img{
+    width: 800px;
+    height: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 1000%;
+    min-height: 0px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 0;
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -427,7 +311,7 @@ body {
 
   .pricing .btn-wrap {
     margin: 20px -20px -20px -20px;
-    padding: 20px 15px;
+    padding: 15px 15px;
     background: #f8f8f8;
     text-align: center;
   }
@@ -435,7 +319,7 @@ body {
   .pricing .btn-buy {
     background: #0880e8;
     display: inline-block;
-    padding: 8px 35px 10px 35px;
+    padding: 8px 26px;
     border-radius: 50px;
     color: #fff;
     transition: none;
@@ -444,6 +328,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     transition: 0.3s;
+    text-decoration: none;
   }
 
   .pricing .btn-buy:hover {
@@ -468,168 +353,60 @@ body {
     color: #fff;
   }
 
-
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.slick-slide{
-    margin: 0 20px;
-}
-.slick-slide img{
-    width: 100%;
-}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-.slick-list{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-slide{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-.slick-slide img{
-    display: block;
-}
-.slick-initialized .slick-slide{
-    display: block;
-}
-.copy{
-    padding-top: 2;
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Program BG
---------------------------------------------------------------*/
-.slick-slide{
-    margin: 15px 0px;
-}
-.slick-slide img{
-    width: 800px;
-    height: 100%;
-}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-.slick-list{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-slide{
-    display: none;
-    float: left;
-    height: 1000%;
-    min-height: 0px;
-}
-.slick-slide img{
-    display: block;
-}
-.slick-initialized .slick-slide{
-    display: block;
-}
-.copy{
-    padding-top: 0;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .section-title h2 {
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-.services .section-title p{
-    font-size: 16px;
-}
-
-.services .section-title h2,
-.services .section-title p {
-        margin-top: 20px;
-        margin-bottom: 40px;
-        margin-left: 200px; /* Atur margin kiri sebanyak yang Anda inginkan */
-        margin-right: 200px;
-}
-
-.services .content {
-    padding: 100px 100px 0 100px;
-  }
-
 .services .icon-box {
-    margin-bottom: 20px;
-    padding: 50px 30px;
-    border-radius: 6px;
-    background: #ffffff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
   }
 
-  .services .icon-box i {
-    float: center;
-    color: #f6b024;
-    font-size: 40px;
-    line-height: 0;
-    margin-bottom: 20px;
-  }
-
-  .services .icon-box h4 {
+  .services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #f6b024;
+    border-radius: 4px;
+    display: flex;
     align-items: center;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-
-  .services .icon-box h4 a {
-    color: #05579e;
+    justify-content: center;
+    margin-bottom: 20px;
     transition: 0.3s;
   }
 
-  .services .icon-box h4 a:hover {
-    color: #0880e8;
+  .services .icon-box .icon i {
+    color: #151515;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+  }
+
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .services .icon-box h4 a {
+    color: #151515;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
   }
 
   .services .icon-box p {
-    align-items: center;
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
-    margin-top: 10px;
-    margin-left: 4px; /* Atur margin kiri sebanyak yang Anda inginkan */
-    margin-right: 4px; /* Atur margin kanan sebanyak yang Anda inginkan */
-
   }
 
-  .services p {
-    margin-left: 20px; /* Atur margin kiri sebanyak yang Anda inginkan */
-    margin-right: 20px; /* Atur margin kanan sebanyak yang Anda inginkan */
-}
-
+  .services .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translate(-10px);
+  }
 
 /*--------------------------------------------------------------
 # Why Us
@@ -700,6 +477,7 @@ body {
     padding-right: 30px;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .why-us .accordion-list span {
@@ -873,6 +651,7 @@ body {
     border-radius: 50px;
     border: 2px solid #f6b024;
     color: #fff;
+    text-decoration: none;
   }
 
   .cta .cta-btn:hover {
@@ -892,178 +671,6 @@ body {
       justify-content: flex-end;
     }
   }
-
-  /*--------------------------------------------------------------
-  # Portfolio
-  --------------------------------------------------------------
-  .portfolio #portfolio-flters {
-    padding: 0;
-    margin: 0 auto 25px auto;
-    list-style: none;
-    text-align: center;
-    border-radius: 50px;
-  }
-
-  .portfolio #portfolio-flters li {
-    cursor: pointer;
-    display: inline-block;
-    padding: 8px 18px 10px 18px;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1;
-    color: #444444;
-    margin: 0 3px 10px 3px;
-    transition: all ease-in-out 0.3s;
-    border-radius: 50px;
-  }
-
-  .portfolio #portfolio-flters li:hover,
-  .portfolio #portfolio-flters li.filter-active {
-    color: #fff;
-    background: #0880e8;
-  }
-
-  .portfolio #portfolio-flters li:last-child {
-    margin-right: 0;
-  }
-
-  .portfolio .portfolio-item {
-    margin-bottom: 30px;
-    overflow: hidden;
-  }
-
-  .portfolio .portfolio-item img {
-    position: relative;
-    top: 0;
-    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-  }
-
-  .portfolio .portfolio-item .portfolio-info {
-    opacity: 0;
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: -50px;
-    z-index: 3;
-    transition: all ease-in-out 0.3s;
-    background: #0880e8;
-    padding: 15px 20px;
-  }
-
-  .portfolio .portfolio-item .portfolio-info h4 {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 600;
-  }
-
-  .portfolio .portfolio-item .portfolio-info p {
-    color: #fff;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-
-  .portfolio .portfolio-item .portfolio-info .preview-link,
-  .portfolio .portfolio-item .portfolio-info .details-link {
-    position: absolute;
-    right: 50px;
-    font-size: 24px;
-    top: calc(50% - 18px);
-    color: white;
-    transition: ease-in-out 0.3s;
-  }
-
-  .portfolio .portfolio-item .portfolio-info .preview-link:hover,
-  .portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #8ec8fb;
-  }
-
-  .portfolio .portfolio-item .portfolio-info .details-link {
-    right: 15px;
-  }
-
-  .portfoio .portfolio-item:hover img {
-    top: -30px;
-  }
-
-  .portfoio .portfolio-item:hover .portfolio-info {
-    opacity: 1;
-    bottom: 0;
-  }
-
-  /*--------------------------------------------------------------
-  # Portfolio Details
-  --------------------------------------------------------------
-  .portfolio-details {
-    padding-top: 40px;
-  }
-
-  .portfolio-details .portfolio-details-slider img {
-    width: 100%;
-  }
-
-  .portfolio-details .portfolio-details-slider .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-  }
-
-  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #0880e8;
-  }
-
-  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #0880e8;
-  }
-
-  .portfolio-details .portfolio-info {
-    padding: 30px;
-    box-shadow: 0px 0 30px rgba(246, 176, 36, 0.08);
-  }
-
-  .portfolio-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-  }
-
-  .portfolio-details .portfolio-info ul li+li {
-    margin-top: 10px;
-  }
-
-  .portfolio-details .portfolio-description {
-    padding-top: 30px;
-  }
-
-  .portfolio-details .portfolio-description h2 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-
-  .portfolio-details .portfolio-description p {
-    padding: 0;
-  }
-
-/*--footer
-  .footer {
-      background-color: rgba(5, 74, 133);
-      max-width: 95%;
-      margin: 0 auto;
-      border-top-left-radius: 40px;
-      border-top-right-radius: 40px;
-  } --*/
-
 
   /*--------------------------------------------------------------
 # Back to top button
@@ -1108,6 +715,297 @@ body {
     background: #fff url("../images/preloader.gif") center center no-repeat;
     overflow: hidden;
 }
+
+/*--------------------------------------------------------------
+# Careers Section
+--------------------------------------------------------------*/
+.careers .careers-box {
+    padding: 50px;
+    background: url("../images/careers.jpg") fixed center center;
+    background-color: #473FF4;
+    color: #fff;
+  }
+
+  .careers .careers-box h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .careers .careers-box p {
+    margin-bottom: 30px;
+  }
+
+  .careers .careers-box .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .careers .careers-box .more-btn i {
+    font-size: 14px;
+  }
+
+  .careers .careers-box .more-btn:hover {
+    color: var(--color-primary);
+    background: #fff;
+  }
+
+  .careers .icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    transition: 0.3s;
+  }
+
+  .careers .icon-box i {
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: rgba(206, 18, 18, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+  }
+
+  .careers .icon-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    font-family: var(--font-secondary);
+  }
+
+  .careers .icon-box p {
+    font-size: 15px;
+    color: #6c757d;
+  }
+
+  @media (min-width: 1200px) {
+    .careers .icon-box:hover {
+      transform: scale(1.1);
+    }
+  }
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+
+  .portfolio .portfolio-item img {
+    transition: all ease-in-out 0.4s;
+  }
+
+  .portfolio .portfolio-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .portfolio p {
+    margin-bottom: 25px;
+  }
+
+  /*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .contact .info i {
+    font-size: 20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #37517e;
+  }
+
+  .contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6182ba;
+  }
+
+  .contact .info .email p {
+    padding-top: 5px;
+  }
+
+  .contact .info .social-links {
+    padding-left: 60px;
+  }
+
+  .contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+
+  .contact .info .social-links a:hover {
+    background: #47b2e4;
+    color: #fff;
+  }
+
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i {
+    background: #47b2e4;
+    color: #fff;
+  }
+
+  .contact .php-email-form {
+    width: 100%;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+  }
+
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+
+  .contact .php-email-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .contact .php-email-form label {
+    padding-bottom: 8px;
+  }
+
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .contact .php-email-form input:focus,
+  .contact .php-email-form textarea:focus {
+    border-color: #47b2e4;
+  }
+
+  .contact .php-email-form input {
+    height: 44px;
+  }
+
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+
+  .contact .php-email-form button[type=submit] {
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  .contact .php-email-form button[type=submit]:hover {
+    background: #209dd8;
+  }
+
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
   /*--------------------------------------------------------------
 # Footer
@@ -1183,7 +1081,7 @@ body {
 
 
   #footer .footer-top .footer-links {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   #footer .footer-top .footer-links ul {
@@ -1278,15 +1176,3 @@ body {
     }
   }
 
-  /*--email--*/
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-.email-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}

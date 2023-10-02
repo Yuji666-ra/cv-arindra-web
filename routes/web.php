@@ -5,7 +5,6 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FooterController;
-use App\Http\Controllers\EmailController;
 
 
 /*
@@ -60,7 +59,3 @@ Route::get('footer/davinci',[FooterController::class, 'davinci'])->name('footer/
 Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('footer/lightroom');
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
-
-
-
-Route::get('/kirim-email', [EmailController::class, 'sendEmail']);

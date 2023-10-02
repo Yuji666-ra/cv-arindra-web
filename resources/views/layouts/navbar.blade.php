@@ -1,8 +1,8 @@
 <!--Navbar-->
 <nav
-    class="navbar navbar-expand-lg navbar-dark py-3 fixed-top justify-content-end {{ Request::segment(1) == '' ? '' : 'bg-white shadow text-dark' }}">
+    class="navbar navbar-expand-lg navbar-dark py-3 fixed-top {{ Request::segment(1) == '' ? '' : 'bg-white shadow text-dark' }}">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
             <img src="{{ asset('assets/icons/logo.png') }}" height="60" width="60" alt=>
         </a>
 
@@ -10,8 +10,8 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -26,14 +26,14 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Video Event</a></li>
                         <li><a class="dropdown-item" href="#">Documenter Film</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
                         <li><a class="dropdown-item" href="#">Photo Event</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Pricelist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ route('contact') }}">Contact Us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -41,16 +41,10 @@
                         More
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Showreel</a></li>
-                        <li><a class="dropdown-item" href="#">Karir</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Clients</a></li>
+                        <li><a class="dropdown-item" href="{{ route('careers') }}">Karir</a></li>
+                        <li><a class="dropdown-item" href="">Clients</a></li>
+                        <li><a class="dropdown-item" href="{{ route('footer/tutorial') }}">Tutorial</a></li>
                     </ul>
-                </li>
-                <li class="nav-item mr-auto">
-                    <a class="nav-link active" href="{{ route('contact') }}"><button> Contact Us </button></a>
                 </li>
             </ul>
         </div>
