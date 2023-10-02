@@ -2,41 +2,52 @@
 
 @section('content')
     <!--Hero Text-->
-    <section id="hero" class="px-0">
-        <video autoplay muted loop id="background-video">
-            <source src="{{ asset('assets/videos/bg-vid.mp4') }}" type="video/mp4">
-            <!-- Jika ingin mendukung format video lain, tambahkan sumber tambahan di sini -->
-        </video>
-        <div class="container text-center ">
-            <div class="hero-title" data-aos="fade-up">
-                <div class="hero-text text-white">CV. Arindra Production</div>
-                <div class="text-secondary">
-                    <h4>A production house originating from Surabaya, that creates creative video and photography. <br>We
-                        make digital content, promos, commercials, music videos.</h4>
+    <section class="home" id="home">
+        <div class="content">
+            <h1>CV. Arindra Production</h1>
+            <p> CV. Arindra Production is a production house originating from Surabaya. With a rich history and an
+                unwavering commitment to excellence</p>
+            <a href="#"><button>Explore more</button></a>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-camera"></i>
+                    <h3>photography</h3>
+                    <p>Our production is trusted by dozens of clients</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Production</h3>
+                    <p>Our production is trusted by dozens of clients</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h3>Live Streaming</h3>
+                    <p>Our production is trusted by dozens of clients</p>
                 </div>
             </div>
-            <div class="button custom-button">
-                Explore our services
-                <img src="{{ asset('assets/icons/arrow-up-right.svg') }}" height="20" width="16" alt="">
-            </div>
-        </div>
+
+
+
     </section>
 
 
     <!--About Us-->
-    <section id="about" class="py-5">
-        <div class="container py-5">
+    <section id="contact" class="py-5">
+        <div class="container py-5" style="margin-top: 10px;">
             <div class="row d-flex align-items-center" data-aos="fade-right">
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center mb-3">
                         <h5>Get To Know More About Us</h5>
                     </div>
                     <h1 class="fw-bold mb-2">Let's work together</h1>
-                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
+
+                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan
+                        terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
                     <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
-                    <button class="btn btn-outline-primary">Learn More</button>
+                    <img src="{{ asset('assets/images/experience.png') }}" class="img-fluid" alt="..."
+                        style="margin-top: 20px; margin-left: -23px;">
                 </div>
                 <div class="col-lg-6">
                     <img src="{{ asset('assets/images/contactPict.png') }}" class="img-fluid" alt="...">
@@ -46,78 +57,29 @@
     </section>
 
     <!--Mitra -->
-    <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
-            <section class="customer-logos slider col-xxl-9">
-                <div class="slide"><img src="assets/images/Mitra/1.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/2.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/3.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/4.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/5.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/6.png" class="img-fluid" alt=""></div>
-                <div class="slide"><img src="assets/images/Mitra/7.png" class="img-fluid" alt=""></div>
-            </section>
-        </div>
+    <section class="section brand">
+        <div class="brand-container container">
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-        <div class="container-fluid" style="margin-top: 80px">
-
-            <div class="row">
-
-                <div class="col-lg-5 align-items-stretch position-relative video-box"
-                    style='background-image: url("assets/images/tumb-youtube.png");' data-aos="fade-right">
-                    <a href="https://youtu.be/_N6rkrr5LKA" class="glightbox play-btn mb-4"></a>
+            <div class="brand-images">
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/1.png" alt="" class="brand-img">
                 </div>
-
-                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
-
-                    <div class="content">
-                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
-                        <p>
-                            CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
-                            Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
-                            dan Live Streaming.
-                        </p>
-                    </div>
-
-                    <div class="accordion-list">
-                        <ul>
-                            <li data-aos="fade-up" data-aos-delay="100">
-                                <a data-bs-toggle="collapse" class="collapse"
-                                    data-bs-target="#accordion-list-1"><span>01</span> <i
-                                        class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Bisa Mengambil Job Dari Seluruh Indonesia bahkan Worldwide sekalipun.</a>
-                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                                    <p>
-
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                    class="collapsed"><span>02</span><i class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Telah membantu ratusan klien dalam menyediakan kebutuhan jasa foto dan video untuk
-                                    berbagai macam kepentingan dan kesempatan. </a>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                    class="collapsed"><span>03</span> <i class="bx bx-chevron-down icon-show"></i><i
-                                        class="bx bx-chevron-up icon-close"></i></a>
-                                <a>Pelayanan terbaik dengan hasil yang prima dengan harga yang kompetitif dan
-                                    terjangkau.</a>
-                            </li>
-
-                        </ul>
-                    </div>
-
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/2.png" alt="" class="brand-img">
                 </div>
-
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/3.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/4.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/5.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/6.png" alt="" class="brand-img">
+                </div>
             </div>
-
         </div>
     </section>
 
@@ -193,6 +155,71 @@
 
         </div>
     </section><!-- End Services Section -->
+
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+        <div class="container-fluid" style="margin-top: 80px">
+
+            <div class="row">
+
+                <div class="col-lg-5 align-items-stretch position-relative video-box"
+                    style='background-image: url("assets/images/tumb-youtube.png");' data-aos="fade-right">
+                    <a href="https://youtu.be/_N6rkrr5LKA" class="glightbox play-btn mb-4"></a>
+                </div>
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
+
+                    <div class="content">
+                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
+                        <p>
+                            CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
+                            Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
+                            dan Live Streaming.
+                        </p>
+                    </div>
+
+                    <div class="accordion-list">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="100">
+                                <a data-bs-toggle="collapse" class="collapse"
+                                    data-bs-target="#accordion-list-1"><span>01</span> <i
+                                        class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Bisa Mengambil Job Dari Seluruh Indonesia bahkan Worldwide sekalipun.</a>
+                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                    <p>
+
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="200">
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
+                                    class="collapsed"><span>02</span><i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Telah membantu ratusan klien dalam menyediakan kebutuhan jasa foto dan video untuk
+                                    berbagai macam kepentingan dan kesempatan. </a>
+                            </li>
+
+                            <li data-aos="fade-up" data-aos-delay="300">
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
+                                    class="collapsed"><span>03</span> <i class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+                                <a>Pelayanan terbaik dengan hasil yang prima dengan harga yang kompetitif dan
+                                    terjangkau.</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -276,8 +303,8 @@
             <div class="row py-2" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">8/08/2023</p>
                             <h5 class="fw-bold mb-3">DBL Junior East Java Series 2023</h5>
@@ -289,8 +316,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">1/03/2023</p>
                             <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
@@ -301,8 +328,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">10/01/2023</p>
                             <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
@@ -318,7 +345,7 @@
             </div>
         </div>
     </section>
- <!-- End Success Project -->
+    <!-- End Success Project -->
 
 
     <!-- ======= Portfolio Section ======= -->
@@ -427,5 +454,4 @@
         </div>
     </section>
     <!-- End portfolio Section -->
-
 @endsection
