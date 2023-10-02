@@ -2,35 +2,52 @@
 
 @section('content')
     <!--Hero Text-->
-    <section id="hero" class="px-0">
-        <div class="container text-center ">
-            <div class="hero-title" data-aos="fade-up">
-                <div class="text-secondary">
-                    <h4>A production house originating from Surabaya</h4>
+    <section class="home" id="home">
+        <div class="content">
+            <h1>CV. Arindra Production</h1>
+            <p> CV. Arindra Production is a production house originating from Surabaya. With a rich history and an
+                unwavering commitment to excellence</p>
+            <a href="#"><button>Explore more</button></a>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-camera"></i>
+                    <h3>photography</h3>
+                    <p>Our production is trusted by dozens of clients</p>
                 </div>
-                <div class="hero-text text-white">Welcome to<br> CV. Arindra Production</div>
+                <div class="box">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Production</h3>
+                    <p>Our production is trusted by dozens of clients</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h3>Live Streaming</h3>
+                    <p>Our production is trusted by dozens of clients</p>
+                </div>
             </div>
-            <div class="button text-light mt-4 px-2">
-                Explore More
-                <img src="{{ asset('assets/icons/arrow-up-right.svg') }}" height="20"width="16"alt="">
-            </div>
-        </div>
+
+
+
     </section>
 
+
     <!--About Us-->
-    <section id="about" class="py-5">
-        <div class="container py-5">
+    <section id="contact" class="py-5">
+        <div class="container py-5" style="margin-top: 10px;">
             <div class="row d-flex align-items-center" data-aos="fade-right">
                 <div class="col-lg-6">
                     <div class="d-flex align-items-center mb-3">
                         <h5>Get To Know More About Us</h5>
                     </div>
                     <h1 class="fw-bold mb-2">Let's work together</h1>
-                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
+
+                    <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan
+                        terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
                     <p>Dengan keahlian dan pengalaman yang cukup, kami siap memberikan pelayanan terbaik dengan hasil
                         yang prima dengan harga yang kompetitif dan terjangkau</p>
-                    <button class="btn btn-outline-primary">Learn More</button>
+                    <img src="{{ asset('assets/images/experience.png') }}" class="img-fluid" alt="..."
+                        style="margin-top: 20px; margin-left: -23px;">
                 </div>
                 <div class="col-lg-6">
                     <img src="{{ asset('assets/images/contactPict.png') }}" class="img-fluid" alt="...">
@@ -40,17 +57,101 @@
     </section>
 
     <!--Mitra -->
-    <div class="container" style="margin-top: -70px" data-aos="zoom-in-up">
-        <section class="customer-logos slider col-xxl-9">
-            <div class="slide"><img src="assets/images/Mitra/Mitra/1.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/2.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/3.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/4.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/5.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/6.png" class="img-fluid" alt=""></div>
-            <div class="slide"><img src="assets/images/Mitra/Mitra/7.png" class="img-fluid" alt=""></div>
-        </section>
-    </div>
+    <section class="section brand">
+        <div class="brand-container container">
+
+            <div class="brand-images">
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/1.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/2.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/3.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/4.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/5.png" alt="" class="brand-img">
+                </div>
+                <div class="brand-image">
+                    <img src="assets/images/Mitra/6.png" alt="" class="brand-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up" style="margin-top: 150px">
+
+            <div class="section-title text-center">
+                <h2 class="fw-bold mb-2">What Services We Offer You</h2>
+                <p>We dedicated to provide high quality production & low cost that can be customized as your needs by our
+                    professional team</p>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-camera-video"></i>
+                        <h4><a href="#">Video Production</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-camera"></i>
+                        <h4><a href="#">Photography</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-image"></i>
+                        <h4><a href="#">Aerial Photo Video</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-camera-reels"></i>
+                        <h4><a href="#">Live Streaming Production</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-file-earmark-music"></i>
+                        <h4><a href="#">Music Production & Publishing</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="bi bi-controller"></i>
+                        <h4><a href="#">E-Sport Production</a></h4>
+                        <p>Tell all your stories, your business and products with stunning audio visuals and make the best
+                            impression on your audience. We produce high-quality visual content that encapsulates the
+                            essence of your brand.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -66,7 +167,7 @@
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
 
                     <div class="content">
-                        <h3>Kenapa Memilih <strong>Arindra Production</strong></h3>
+                        <h3>Kenapa Memilih <strong>Arindra Production</strong>?</h3>
                         <p>
                             CV. Arindra Production telah berdiri sejak tahun 2014 dan berfokus di bidang video Company
                             Profile, Video Documentasi Event, Aerial Footage, Documenter Film, Motion Graphic,Video Iklan,
@@ -117,85 +218,88 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-        <div class="container" data-aos="fade-up" style="margin-top: 80px">
+        <div class="container" data-aos="fade-up">
 
-            <div class="section-title text-center">
-                <h2 class="fw-bold mb-2">Our Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                    sit in iste officiis commodi quidem hic quas.</p>
+            <div class="section-title text-center" style="margin-top: 90px">
+                <h2 class="fw-bold">Services</h2>
+                <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
             </div>
 
-            <div class="row text-center">
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-video"></i>
-                        <h4><a href="#">Video Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-camera-video"></i></div>
+                        <h4>Video Production</h4>
+                        <p>Sampaikan cerita, bisnis, dan produk Anda dengan audio visual berkualitas tinggi untuk kesan
+                            terbaik kepada audiens Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                    data-aos-delay="200">
                     <div class="icon-box">
-                        <i class="bi bi-camera"></i>
-                        <h4><a href="#">Photography</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-camera"></i></div>
+                        <h4>Photography</h4>
+                        <p>Gambar adalah kesan pertama bagi calon klien atau pelanggan Anda. Foto-foto kami membantu
+                            menciptakan kesan pertama yang lebih baik.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                    data-aos-delay="300">
                     <div class="icon-box">
-                        <i class="bi bi-airplane"></i>
-                        <h4><a href="#">Aerial Photo Video</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-airplane"></i></div>
+                        <h4>Aerial Photo Video</h4>
+                        <p>Berikan perspektif baru tentang bisnis Anda dengan tampilan udara, kami memberikan solusi terbaik
+                            untuk kebutuhan fotografi dan videografi digital udara Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                        <i class="bi bi-camera-reels"></i>
-                        <h4><a href="#">Live Streaming Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-camera-reels"></i></div>
+                        <h4>Live Streaming Production</h4>
+                        <p>Kami siap menyediakan layanan Live Streaming sesuai kebutuhan Anda dengan harga terjangkau, baik
+                            secara remote, on location, atau hybrid, untuk tayang di berbagai platform seperti media sosial,
+                            website, e-commerce, Zoom, dan lainnya.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box">
-                        <i class="bi bi-file-earmark-music"></i>
-                        <h4><a href="#">Music Production & Publishing</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-file-earmark-music"></i></div>
+                        <h4>Music Production & Publishing</h4>
+                        <p>Kami siap menyediakan layanan Music Production dengan harga kompetitif, termasuk Theme Song,
+                            Jingle, Soundtrack, Film Score, dan Music Publishing sesuai kebutuhan Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box">
-                        <i class="bi bi-controller"></i>
-                        <h4><a href="#">E-Sport Production</a></h4>
-                        <p>Ceritakan semua kisah Anda, bisnis dan produk Anda dengan audio visual yang memukau dan berikan
-                            kesan terbaik kepada audiens Anda. Kami memproduksi konten visual berkualitas tinggi yang
-                            merangkum esensi merek Anda.</p>
+                        <div class="icon"><i class="bi bi-controller"></i></div>
+                        <h4>E-Sport Production</h4>
+                        <p>Arindra Production siap menyediakan semua kebutuhan teknis dan SDM untuk kompetisi Esport, baik
+                            Online maupun Offline, termasuk Observer In Game, Broadcast, dan Studio Caster dengan desain
+                            layout untuk Live Streaming In Game.</p>
                     </div>
                 </div>
+
             </div>
 
         </div>
-    </section>
+    </section><!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up" style="margin-top: 80px">
 
             <div class="section-title text-center">
-                <h2>Price List</h2>
-                <p>Daftar Jasa beserta Price List yang ada di CV. Arindra Production.</p>
+                <h2 class="fw-bold mb-2">Price List</h2>
+                <p>Hemat lebih banyak dengan paket penawaran eksklusif kami. Jelajahi daftar harga untuk menemukan penawaran
+                    terbaik kami.</p>
             </div>
 
-            <div class="row">
+            <div class="row py-2" data-aos="zoom-in">
 
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="box featured">
@@ -205,7 +309,7 @@
                             <li>Jasa pengambilan dan pengeditan video company profile</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/company') }}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +322,7 @@
                             <li>Jasa pengambilan video event terkhusus untuk after movie event</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/video') }}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +335,7 @@
                             <li>Jasa pengambilan dan pengeditan photo-photo event skala besar ataupun kecil</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List</a>
+                            <a href="{{ route('price/photo') }}" class="btn-buy">Check Price List</a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +348,7 @@
                             <li>Jasa pengambilan footage berupa video atau photo melalui alat drone dan pilot</li>
                         </ul>
                         <div class="btn-wrap">
-                            <a href="#" class="btn-buy">Check Price List
+                            <a href="{{ route('price/drone') }}" class="btn-buy">Check Price List
                             </a>
                         </div>
                     </div>
@@ -255,86 +359,68 @@
         </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container">
-
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-9 text-center text-lg-start">
-                    <h3>Contact Us</h3>
-                    <p> Hubungi kami untuk jalin kerja sama yang baik. Boleh untuk sekedar bertanya-tanya terlebih dahulu.
-                    </p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Contact Us</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
     <!--Success Project-->
     <section id="project" class="py-5">
         <div class="container py-5">
 
-            <div class="header-project text-center">
-                <h2 class="fw-bold">Success Project </h2>
+            <div class="section-title header-project text-center" data-aos="fade-up">
+                <h2 class="fw-bold">Success Project</h2>
+                <p>View our Success Project</p>
             </div>
 
-            <div class="row py-5" data-aos="zoom-in">
+            <div class="row py-2" data-aos="zoom-in">
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-1.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-1.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">8/08/2023</p>
                             <h5 class="fw-bold mb-3">DBL Junior East Java Series 2023</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan
                                 bergengsi yaitu DBL Junior East Java Series 2023 </p>
-                            <a href="{{ route('dbl')}}" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-2.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-2.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">1/03/2023</p>
                             <h5 class="fw-bold mb-3">Hitzbul Wathan Camp 2022</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk
                                 mendokumentasikan salah satu acara tahunan bergengsi yaitu Hitzbul Wathan Camp 2022 </p>
-                            <a href="" class="text-decoration-none text-primary">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card border-0">
-                        <img src="{{ asset('assets/images/project-3.jpeg') }}" class="img-fluid mb-3" height="350"
-                            width="350" alt="">
+                        <img src="{{ asset('assets/images/projects/project-3.jpeg') }}" class="img-fluid mb-3"
+                            height="350" width="350" alt="">
                         <div class="konten-project">
                             <p class="mb-3 text-secondary">10/01/2023</p>
                             <h5 class="fw-bold mb-3">Spemma Esport Competition</h5>
                             <p class="text-secondary">CV. Arindra Production di berikan kesempatan untuk menghandle dan
                                 mengorganize salah satu acara bergengsi yaitu Spemma Esport Competition </p>
-                            <a href="" class="text-decoration-none text-primary ">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="footer-project text-center">
-                <a href="" class="btn btn-outline-primary">Project Lainnya</a>
+                <a href="{{ route('projects/project') }}" class="btn btn-outline-primary">View More</a>
             </div>
         </div>
     </section>
+    <!-- End Success Project -->
+
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container py-5">
 
-            <div class="section-title header-project text-center" data-aos="fade-up">
+            <div class="section-title header-project text-center" data-aos="zoom-in">
                 <h2 class="fw-bold">Portfolio</h2>
                 <p>Check our Portfolio</p>
             </div>
@@ -434,5 +520,6 @@
                 </div>
             </div>
         </div>
-    </section><!-- End portfolio Section -->
+    </section>
+    <!-- End portfolio Section -->
 @endsection

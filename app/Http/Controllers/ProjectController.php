@@ -7,6 +7,30 @@ use Illuminate\Http\Request;
 class ProjectController extends Controller
 {
     public function dbl(){
-        return view('dbl');
+        return view('projects/dbl');
     }
+
+    public function camp(){
+        return view('projects/camp');
+    }
+
+    public function esport(){
+        return view('projects/esport');
+    }
+
+    public function project(){
+        return view('projects/project');
+    }
+
+    public function careers(){
+        return view('careers');
+    }
+
+    public function contact(){
+        return view('contact');
+    }
+
+
+
+
 }
