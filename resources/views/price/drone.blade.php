@@ -23,9 +23,6 @@
                           <li>DRONE KAMI SUDAH BEREGRITERS KEMENTRIAN PERHUBUNGAN KELAYAKAN UDARA</li>
                           <li>1 Baterai (22 Menit, tergantung kecepatan angin di lokasi)</li>
                         </ul>
-                        <div class="btn-wrap">
-                          <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
-                        </div>
                       </div>
                     </div>
 
@@ -41,9 +38,6 @@
                             <li>2 Baterai + Charge</li>
                             <li>Raw foto/ Video</li>
                         </ul>
-                        <div class="btn-wrap">
-                          <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
-                        </div>
                       </div>
                     </div>
 
@@ -61,9 +55,6 @@
                             <li>Raw foto/ Video</li>
                             <li>Bonus Editing</li>
                         </ul>
-                        <div class="btn-wrap">
-                          <a href="#" class="btn-buy">Buy Now</a>
-                        </div>
                       </div>
                     </div>
 

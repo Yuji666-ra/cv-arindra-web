@@ -23,9 +23,6 @@
                   <li>Aerial Footage</li>
                   <li>Only 1 Revision</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a href="{{ route('orders.create') }}" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
-                </div>
               </div>
             </div>
 
@@ -44,9 +41,7 @@
                   <li>DVD Masters and Flash Disk</li>
                   <li>2 Revision</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
-                </div>
+
               </div>
             </div>
 
@@ -71,9 +66,6 @@
                   <li>Photo & Video Behind The Scene</li>
                   <li>3 Revision</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy">Buy Now</a>
-                </div>
               </div>
             </div>
 

@@ -289,9 +289,13 @@
                     </div>
                 </div>
 
+
             </div>
 
         </div>
+        <div class="btn-wrap">
+            <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
+          </div>
     </section><!-- End Pricing Section -->
 
     <!--Success Project-->

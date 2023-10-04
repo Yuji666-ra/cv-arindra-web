@@ -61,15 +61,3 @@ Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('foo
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
 
-<<<<<<< HEAD
-Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] , function(){
-
-    });
-
-    Route::get('admin',[ProjectController::class, 'admin'])->name('admin');
-    Route::get('auth/login',[ProjectController::class, 'login'])->name('auth/login');
-
-=======
-Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
-Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
->>>>>>> 3b87d62523693118d345970fa15862b3884aa40c

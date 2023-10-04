@@ -21,9 +21,7 @@
                   <li>Standard Photo Documentation</li>
                   <li>Upload to Google Drive</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
-                </div>
+
               </div>
             </div>
 
@@ -38,9 +36,6 @@
                   <li>15s Album</li>
                   <li>Upload to Google Drive + DVD</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a style="background-color: #FC9236; color: white" href="#" class="btn-buy">Buy Now</a>
-                </div>
               </div>
             </div>
 
@@ -59,9 +54,6 @@
                     <li>Edited Photos</li>
                     <li>Upload to Google Drive + DVD + USB</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy">Buy Now</a>
-                </div>
               </div>
             </div>
 
