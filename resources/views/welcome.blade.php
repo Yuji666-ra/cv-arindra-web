@@ -24,6 +24,11 @@
                     <h3>Live Streaming</h3>
                     <p>Our production is trusted by dozens of clients</p>
                 </div>
+                <div class="box">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h3>Aerial Footage</h3>
+                    <p>Our production is trusted by dozens of clients</p>
+                </div>
             </div>
     </section>
 

@@ -79,7 +79,7 @@ scale=1.0">
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/tutorial') }}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Showreels</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="https://www.youtube.com/watch?v=_N6rkrr5LKA">Showreels</a></li>
 
                         </ul>
                     </div>
@@ -87,13 +87,13 @@ scale=1.0">
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Tutorial</h4>
                         <ul class="footer-list">
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe After Effect</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Lightroom</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Premiere</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Adobe Photoshop</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Davinci Resolve</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Final Cut Pro X</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Kinemaster</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/after') }}">Adobe After Effect</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/lightroom') }}">Adobe Lightroom</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/premiere') }}">Adobe Premiere</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/photoshop') }}">Adobe Photoshop</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/davinci') }}">Davinci Resolve</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/final') }}">Final Cut Pro X</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/master') }}">Kinemaster</a></li>
                         </ul>
                     </div>
 
