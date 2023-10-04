@@ -9,9 +9,10 @@ class Order extends Model
 {
     protected $fillable = [
         'name',
+        'telephone',
         'email',
-        'product',
-        // Tambahkan atribut lain yang Anda perlukan di sini
+        'service',
+        'packet',
     ];
 
 }

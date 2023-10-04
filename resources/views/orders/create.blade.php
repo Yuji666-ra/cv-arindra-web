@@ -1,12 +1,14 @@
-
 <section id="detail" style="margin-top: 40px" class="py-5">
 </section>
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Form Pemesanan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+        /* Gaya CSS Anda di sini */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -35,7 +37,8 @@
         }
 
         input[type="text"],
-        input[type="email"] {
+        input[type="email"],
+        select {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -73,41 +76,60 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Form Pemesanan</h1>
+    <section id="form-buy">
+        <div class="container">
+            @if ($message = Session::get('success'))
+                <div class="alert alert-success">
+                    <p>{{ $message }}</p>
+                </div>
+            @endif
 
-    <div class="container">
-        @if ($message = Session::get('success'))
-            <div class="alert alert-success">
-                <p>{{ $message }}</p>
-            </div>
-        @endif
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
 
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
+            <form method="POST" action="{{ route('orders.store') }}">
+                @csrf
+                <label for="name">Nama:</label>
+                <input type="text" name="name" id="name" required>
 
-        <form method="POST" action="{{ route('orders.store') }}">
-            @csrf
-            <label for="name">Nama:</label>
-            <input type="text" name="name" id="name" required>
+                <label for="telephone">No.Telepon:</label>
+                <input type="text" name="telephone" id="telephone" required>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
 
-            <label for="product">Produk:</label>
-            <input type="text" name="product" id="product" required>
+                <label for="service">Pilih Layanan:</label>
+                <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">-- Pilih --</option>
+                    <option>Company Profile</option>
+                    <option>Video Event</option>
+                    <option>Photo Event</option>
+                    <option>Jasa Drone & Pilot</option>
+                </select>
 
-            <button type="submit">Pesan Sekarang</button>
-        </form>
-    </div>
+                <label for="packet">Pilih Paket Layanan:</label>
+                <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">-- Pilih --</option>
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>Bronze</option>
+                </select>
+
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </div>
+    </section>
 </body>
-</html>
 
-   
+</html>
+</section>
