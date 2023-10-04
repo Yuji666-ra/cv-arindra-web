@@ -5,9 +5,9 @@
     <section class="home" id="home">
         <div class="content">
             <h1>CV. Arindra Production</h1>
-            <p> CV. Arindra Production is a production house originating from Surabaya. With a rich history and an
+            <p> CV. Arindra Production is a production house originating from Surabaya. <br>With a rich history and an
                 unwavering commitment to excellence</p>
-            <a href="#"><button>Explore more</button></a>
+            <a href="#" class="bi bi-arrow-right"> Explore more</a>
             <div class="box-container">
                 <div class="box">
                     <i class="fas fa-camera"></i>
@@ -85,7 +85,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title text-center" style="margin-top: 90px">
-                <h2 class="fw-bold">Services</h2>
+                <h2 class="fw-bold">SERVICES</h2>
                 <p>Kualitas, Inovasi, dan Pelayanan terbaik dalam setiap langkah.</p>
             </div>
 
@@ -225,7 +225,7 @@
         <div class="container" data-aos="fade-up" style="margin-top: 80px">
 
             <div class="section-title text-center">
-                <h2 class="fw-bold mb-2">Price List</h2>
+                <h2 class="fw-bold mb-2">PRICE LIST</h2>
                 <p>Hemat lebih banyak dengan paket penawaran eksklusif kami.</p>
             </div>
 
@@ -290,11 +290,11 @@
     </section><!-- End Pricing Section -->
 
     <!--Success Project-->
-    <section id="project" class="py-5">
+    <section id="project" class="py-5" style="margin-top: 30px">
         <div class="container py-5">
 
             <div class="section-title header-project text-center" data-aos="fade-up">
-                <h2 class="fw-bold">Success Project</h2>
+                <h2 class="fw-bold">SUCCESS PROJECT</h2>
                 <p>View our Success Project</p>
             </div>
 
@@ -351,7 +351,7 @@
         <div class="container py-5">
 
             <div class="section-title header-project text-center" data-aos="zoom-in">
-                <h2 class="fw-bold">Portfolio</h2>
+                <h2 class="fw-bold">PORTFOLIO</h2>
                 <p>Check our Portfolio</p>
             </div>
 
