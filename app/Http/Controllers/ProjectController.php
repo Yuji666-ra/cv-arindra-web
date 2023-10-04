@@ -30,6 +30,13 @@ class ProjectController extends Controller
         return view('contact');
     }
 
+    public function admin(){
+        return view('admin');
+    }
+
+    public function login(){
+        return view('auth/login');
+    }
 
 
 

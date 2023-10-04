@@ -59,3 +59,11 @@ Route::get('footer/davinci',[FooterController::class, 'davinci'])->name('footer/
 Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('footer/lightroom');
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
+
+Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] , function(){
+
+    });
+
+    Route::get('admin',[ProjectController::class, 'admin'])->name('admin');
+    Route::get('auth/login',[ProjectController::class, 'login'])->name('auth/login');
+
