@@ -11,7 +11,7 @@
             <div class="box-container">
                 <div class="box">
                     <i class="fas fa-camera"></i>
-                    <h3>photography</h3>
+                    <h3>Photography</h3>
                     <p>Our production is trusted by dozens of clients</p>
                 </div>
                 <div class="box">
@@ -226,8 +226,7 @@
 
             <div class="section-title text-center">
                 <h2 class="fw-bold mb-2">Price List</h2>
-                <p>Hemat lebih banyak dengan paket penawaran eksklusif kami. Jelajahi daftar harga untuk menemukan penawaran
-                    terbaik kami.</p>
+                <p>Hemat lebih banyak dengan paket penawaran eksklusif kami.</p>
             </div>
 
             <div class="row py-2" data-aos="zoom-in">

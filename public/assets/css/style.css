@@ -261,6 +261,7 @@ body {
 }
 
 .btn-outline-primary {
+    font-size: 14px;
     background-color: transparent;
     border-radius: 10px;
     border-color: #0000FF;
@@ -1297,6 +1298,10 @@ body {
     background: #209dd8;
     color: #fff;
     text-decoration: none;
+  }
+
+  #footer .footer-top .footer-links p {
+    font-size: 14px;
   }
 
   #footer .footer-bottom {
