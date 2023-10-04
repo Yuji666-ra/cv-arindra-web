@@ -43,15 +43,11 @@ Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/c
 Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
 Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
 Route::get('careers',[ProjectController::class, 'careers'])->name('careers');
-
 Route::get('price/company',[PriceController::class, 'company'])->name('price/company');
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');
 Route::get('price/drone',[PriceController::class, 'drone'])->name('price/drone');
-
 Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
-
-
 Route::get('footer/tutorial',[FooterController::class, 'tutorial'])->name('footer/tutorial');
 Route::get('footer/premiere',[FooterController::class, 'premiere'])->name('footer/premiere');
 Route::get('footer/after',[FooterController::class, 'after'])->name('footer/after');
@@ -61,3 +57,12 @@ Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('foo
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
 
+Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] , function(){
+
+    });
+
+    Route::get('admin',[ProjectController::class, 'admin'])->name('admin');
+    Route::get('auth/login',[ProjectController::class, 'login'])->name('auth/login');
+
+Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
+Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
