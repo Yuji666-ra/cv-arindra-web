@@ -71,12 +71,13 @@ scale=1.0">
                     </div>
 
                     <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Company</h4>
+                        <h4>COMPANY</h4>
                         <ul class="footer-list">
                             <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Careers</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/tutorial') }}">Tutorial</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a
+                                    href="{{ route('footer/tutorial') }}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="https://www.youtube.com/watch?v=_N6rkrr5LKA">Showreels</a></li>
@@ -85,7 +86,7 @@ scale=1.0">
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Tutorial</h4>
+                        <h4>TUTORIAL</h4>
                         <ul class="footer-list">
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/after') }}">Adobe After Effect</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/lightroom') }}">Adobe Lightroom</a></li>
@@ -98,7 +99,7 @@ scale=1.0">
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
+                        <h4>OUR SOCIAL NETWORKS</h4>
                         <p>Bergabunglah dengan jaringan sosial kami dan nikmati konten eksklusif serta berita terkini!
                         </p>
                         <div class="social-links mt-3">

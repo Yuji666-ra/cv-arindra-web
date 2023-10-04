@@ -24,7 +24,7 @@
                   <li>Only 1 Revision</li>
                 </ul>
                 <div class="btn-wrap">
-                  <a href="#" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
+                  <a href="{{ route('orders.create') }}" class="btn-buy" style="background-color: #4CAF50; color: white">Buy Now</a>
                 </div>
               </div>
             </div>
