@@ -3,30 +3,24 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
 class ContactMail extends Mailable
 {
-    use Queueable, SerializesModels;
+    public $data;
 
-    public $name;
-    public $email;
-    public $subject;
-    public $message;
-
-    public function showContactForm($name, $email, $subject, $message)
+    public function __construct($data)
     {
-        $this->name = $name;
-        $this->email = $email;
-        $this->subject = $subject;
-        $this->message = $message;
+        $this->data = $data;
     }
 
     public function build()
     {
-        return $this->from($this->email)
-            ->subject($this->subject)
-            ->view('contact');
+        return $this->subject('Pesan Kontak')->view('emails.contact');
     }
 }
+

@@ -19,9 +19,6 @@ use App\Http\Controllers\OrderController;
 |
 */
 
-
-
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -47,7 +44,6 @@ Route::get('price/company',[PriceController::class, 'company'])->name('price/com
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');
 Route::get('price/drone',[PriceController::class, 'drone'])->name('price/drone');
-Route::get('/contact', [ContactController::class, 'showContactForm'])->name('contact');
 Route::get('footer/tutorial',[FooterController::class, 'tutorial'])->name('footer/tutorial');
 Route::get('footer/premiere',[FooterController::class, 'premiere'])->name('footer/premiere');
 Route::get('footer/after',[FooterController::class, 'after'])->name('footer/after');
@@ -66,3 +62,11 @@ Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] ,
 
 Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
 Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
+
+Route::post('/send-email', 'ContactController@sendEmail')->name('send-email');
+
+Route::get('/contact', 'ContactController@ContactMail');
+
+
+
+
