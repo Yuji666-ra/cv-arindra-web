@@ -18,9 +18,9 @@ class OrderController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'telephone' => 'integer|max:15',
-            'service' => 'required',
-            'packet' => 'required',
+            'telephone' => 'string|max:15',
+            'service' => '',
+            'packet' => '',
         ]);
 
         if ($validator->fails()) {

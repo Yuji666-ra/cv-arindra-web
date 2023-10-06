@@ -63,7 +63,7 @@ Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] ,
 Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
 Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
 
-Route::post('/send-email', 'ContactController@sendEmail')->name('send-email');
+Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send-email');
 
 Route::get('/contact', 'ContactController@ContactMail');
 
