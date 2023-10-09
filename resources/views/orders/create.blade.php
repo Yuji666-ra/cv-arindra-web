@@ -103,13 +103,13 @@
                 <input type="text" name="name" id="name" required>
 
                 <label for="telephone">No.Telepon:</label>
-                <input type="text" name="telephone" id="telephone" required>
+                <input type="text" name="telp" id="telephone" required>
 
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required>
 
                 <label for="service">Pilih Layanan:</label>
-                <select class="form-control select2" style="width: 100%;">
+                <select class="form-control select2" name="service" style="width: 100%;">
                     <option selected="selected">-- Pilih --</option>
                     <option>Company Profile</option>
                     <option>Video Event</option>
@@ -118,7 +118,7 @@
                 </select>
 
                 <label for="packet">Pilih Paket Layanan:</label>
-                <select class="form-control select2" style="width: 100%;">
+                <select class="form-control select2" name="packet" style="width: 100%;">
                     <option selected="selected">-- Pilih --</option>
                     <option>Gold</option>
                     <option>Silver</option>

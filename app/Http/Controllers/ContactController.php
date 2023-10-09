@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
 
 class ContactController extends Controller {
+
+    public function index()
+    {
+        return view('contact');
+    }
     public function sendEmail(Request $request)
     {
         $data = [

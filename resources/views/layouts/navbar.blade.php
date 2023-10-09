@@ -50,7 +50,7 @@
                     </ul>
                 </li>
                 <li class="nav-item mr-auto">
-                    <a class="nav-link active" href="{{ route('send-email') }}">
+                    <a class="nav-link active" href="{{ route('contact-us') }}">
                         <button class="btn btn-primary">Contact Us</button>
                     </a>
 
