@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
 
-
-
 class ContactController extends Controller {
     public function sendEmail(Request $request)
     {

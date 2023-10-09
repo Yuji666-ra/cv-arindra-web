@@ -12,26 +12,29 @@ class OrderController extends Controller
         return view('orders.create');
     }
 
-    public function store(Request $request)
-    {
-        // Validasi input
-        $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'telephone' => 'string|max:15',
-            'service' => '',
-            'packet' => '',
-        ]);
+// ...
 
-        if ($validator->fails()) {
-            return redirect()->route('orders.create')
-                ->withErrors($validator)
-                ->withInput();
-        }
+public function store(Request $request)
+{
+    // Validasi input
+    $validator = Validator::make($request->all(), [
+        'name' => 'required|string|max:255',
+        'email' => 'required|email|max:255',
+        'telp' => 'string',
+        'service' => 'string', // Sesuaikan validasi ini dengan aturan validasi yang sesuai
+        'packet' => 'string', // Sesuaikan validasi ini dengan aturan validasi yang sesuai
+    ]);
 
-        // Simpan pemesanan ke dalam database
-        Order::create($validator);
-
-        return redirect()->route('orders.create')->with('success', 'Pemesanan berhasil!');
+    if ($validator->fails()) {
+        return redirect()->route('orders.create')
+            ->withErrors($validator)
+            ->withInput();
     }
+
+    // Simpan pemesanan ke dalam database
+    Order::create($request->all());
+
+    return redirect()->route('orders.create')->with('success', 'Pemesanan berhasil!');
+}
+
 }

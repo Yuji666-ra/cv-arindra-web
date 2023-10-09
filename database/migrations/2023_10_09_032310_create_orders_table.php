@@ -12,7 +12,9 @@ class CreateOrdersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email');
-            $table->string('product');
+            $table->string('telp')->nullable();
+            $table->string('service')->nullable();
+            $table->string('packet')->nullable();
             $table->timestamps();
         });
     }
@@ -22,3 +24,4 @@ class CreateOrdersTable extends Migration
         Schema::dropIfExists('orders');
     }
 }
+
