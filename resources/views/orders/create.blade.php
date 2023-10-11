@@ -125,7 +125,8 @@
                     <option>Bronze</option>
                 </select>
 
-                <button type="submit">Pesan Sekarang</button>
+                <button type="submit">Order Now</button>
+
             </form>
         </div>
     </section>
