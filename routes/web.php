@@ -68,6 +68,8 @@ Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send-
 
 Route::get('/contact', 'ContactController@ContactMail');
 
+Route::get('/get/{id}', [ProjectController::class, 'hapus'])->name('admin.hapus');
+
 
 
 
