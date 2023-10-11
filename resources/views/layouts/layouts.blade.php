@@ -80,7 +80,8 @@ scale=1.0">
                                     href="{{ route('footer/tutorial') }}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="https://www.youtube.com/watch?v=_N6rkrr5LKA">Showreels</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a
+                                    href="https://www.youtube.com/watch?v=_N6rkrr5LKA">Showreels</a></li>
 
                         </ul>
                     </div>
@@ -88,13 +89,20 @@ scale=1.0">
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>TUTORIAL</h4>
                         <ul class="footer-list">
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/after') }}">Adobe After Effect</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/lightroom') }}">Adobe Lightroom</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/premiere') }}">Adobe Premiere</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/photoshop') }}">Adobe Photoshop</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/davinci') }}">Davinci Resolve</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/final') }}">Final Cut Pro X</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/master') }}">Kinemaster</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/after') }}">Adobe After
+                                    Effect</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/lightroom') }}">Adobe
+                                    Lightroom</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/premiere') }}">Adobe
+                                    Premiere</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/photoshop') }}">Adobe
+                                    Photoshop</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/davinci') }}">Davinci
+                                    Resolve</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('footer/final') }}">Final Cut Pro
+                                    X</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a
+                                    href="{{ route('footer/master') }}">Kinemaster</a></li>
                         </ul>
                     </div>
 
@@ -129,6 +137,46 @@ scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
+
+
+    <!--NAVBAR SCROLL ACTIVE-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const navbar = document.querySelector(".fixed-top");
+        window.onscroll = () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add("scroll-nav-active");
+                navbar.classList.add("text-nav-active");
+                navbar.classList.remove("navbar-dark");
+            } else {
+                navbar.classList.remove("scroll-nav-active");
+                navbar.classList.add("navbar-dark");
+            }
+        };
+        //script aoas scroll view
+        AOS.init();
+    </script>
+
+
+    <!--NAVBAR SCROLL MERUBAH ICON DARK-->
+    <script>
+        // Mendapatkan elemen gambar logo
+        var logoImg = document.getElementById('logo-img');
+
+        // Mendeteksi peristiwa scroll
+        window.addEventListener('scroll', function() {
+            // Mengubah gambar logo ke versi "dark" jika Anda sudah memiliki gambar yang sesuai
+            if (window.scrollY > 100) { // Ganti nilai 100 sesuai dengan kapan Anda ingin mengubah gambar
+                logoImg.src =
+                    "{{ asset('assets/icons/logo-dark.png') }}"; // Ganti dengan sumber gambar "dark" Anda
+            } else {
+                logoImg.src =
+                    "{{ asset('assets/icons/logo.png') }}"; // Kembali ke gambar logo asli jika belum di-scroll ke atas
+            }
+        });
+    </script>
+
+
 
     <!--AOS Script scroll view-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

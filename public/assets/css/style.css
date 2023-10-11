@@ -36,11 +36,11 @@ body {
 
 /*Navbar*/
 .navbar {
-    margin-top: 10px; /* Atur margin atas sesuai dengan kebutuhan Anda */
-    margin-bottom: 10px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
+    margin-top: 0px; /* Atur margin atas sesuai dengan kebutuhan Anda */
+    margin-bottom: 0px; /* Atur margin bawah sesuai dengan kebutuhan Anda */
 }
 .navbar-expand-lg {
-    max-width: 1100px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+    max-width: none; /* Atur lebar maksimum sesuai kebutuhan Anda */
     margin-left: auto;
     margin-right: auto;
 }
@@ -85,19 +85,13 @@ body {
 }
 
 .scroll-nav-active {
-    position: fixed; /* Membuat elemen tetap saat di-scroll */
-    top: 0;
-    left: 0;
-    width: 100%; /* Menentukan lebar elemen */
-    padding: 80px; /* Atur padding untuk ruang di sebelah kiri dan kanan */
-    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
-    border-radius: 20px 20px 20px 20px; /* Border radius pada sudut bawah */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-    /* ... properti lain yang mungkin Anda inginkan ... */
-   /* border-bottom: 1px solid #0000FF;*/
-    /*box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, .08);*/
-    mask-image: url("../../assets/images/logo-dark.png");
+    background-color: white; /* Warna latar belakang putih */
+    /*border-bottom: 2px solid var(--lightblue);*/
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+
+
 }
+
 
 .text-nav-active {
     color: white;
