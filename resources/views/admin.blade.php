@@ -491,21 +491,22 @@
         <table class="data-table table stripe hover nowrap">
             <thead>
                 <tr>
-                    <th class="table-plus datatable-nosort">Name</th>
-                    <th>Age</th>
-                    <th>Office</th>
-                    <th>Address</th>
-                    <th>Start Date</th>
+                    <th>Nama</th>
+                    <th>No Telp</th>
+                    <th>Email</th>
+                    <th>Layanan</th>
+                    <th>Paket</th>
                     <th class="datatable-nosort">Action</th>
                 </tr>
             </thead>
             <tbody>
+                @foreach ($data as $d)
                 <tr>
-                    <td class="table-plus">Gloria F. Mead</td>
-                    <td>25</td>
-                    <td>Sagittarius</td>
-                    <td>2829 Trainer Avenue Peoria, IL 61602</td>
-                    <td>29-03-2018</td>
+                    <td>{{ $d->name }}</td>
+                    <td>{{ $d->telp }}</td>
+                    <td>{{ $d->email }}</td>
+                    <td>{{ $d->service }}</td>
+                    <td>{{ $d->packet }}</td>
                     <td>
                         <div class="dropdown">
                             <a
@@ -532,6 +533,8 @@
                         </div>
                     </td>
                 </tr>
+                @endforeach
+
             </tbody>
         </table>
     </div>

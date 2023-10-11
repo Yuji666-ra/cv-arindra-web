@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
+use App\Http\Kernel;
 use Illuminate\Http\Request;
 
 class ProjectController extends Controller
@@ -31,7 +33,10 @@ class ProjectController extends Controller
     }
 
     public function admin(){
-        return view('admin');
+
+        $data = Order::get();
+
+        return view('admin',compact('data'));
     }
 
     public function login(){
