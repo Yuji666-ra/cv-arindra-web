@@ -34,9 +34,7 @@ class ProjectController extends Controller
 
     public function admin(){
 
-        $data = Order::get();
-
-        return view('admin',compact('data'));
+        return view('admin/admin');
     }
 
     public function login(){
