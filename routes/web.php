@@ -6,6 +6,7 @@ use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FooterController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -53,11 +54,8 @@ Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('foo
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
 
-Route::group(['prefix' => 'admin', 'middleware' =>  ['auth'], 'as' => 'admin'] , function(){
 
-    });
-
-    Route::get('admin',[ProjectController::class, 'admin'])->name('admin');
+    Route::get('admin/admin',[ProjectController::class, 'admin'])->name('admin/admin');
     Route::get('auth/login',[ProjectController::class, 'login'])->name('auth/login');
 
 Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
@@ -70,7 +68,9 @@ Route::get('/contact', 'ContactController@ContactMail');
 
 Route::get('/get/{id}', [ProjectController::class, 'hapus'])->name('admin.hapus');
 
-
+Route::get('admin/admin_user',[AdminController::class, 'user'])->name('admin/admin_user');
+Route::get('admin/admin_pesanan',[AdminController::class, 'pesanan'])->name('admin/admin_pesanan');
+Route::get('/edit/{id}',[AdminController::class, 'edit'])->name('admin_pesanan_edit');
 
 
 
