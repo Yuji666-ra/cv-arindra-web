@@ -354,6 +354,86 @@
 			<div class="pd-ltr-20 xs-pd-20-10">
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 
+<!-- Simple Datatable start -->
+<div class="card-box mb-30">
+    <div class="pd-20">
+        <h4 class="text-blue h4">Pesanan</h4>
+    </div>
+    <div class="pb-20">
+        <table class="data-table table stripe hover nowrap">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>No Telp</th>
+                    <th>Email</th>
+                    <th>Layanan</th>
+                    <th>Paket</th>
+                    <th class="datatable-nosort">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($data as $d)
+                <tr>
+                    <td>{{ $d->name }}</td>
+                    <td>{{ $d->telp }}</td>
+                    <td>{{ $d->email }}</td>
+                    <td>{{ $d->service }}</td>
+                    <td>{{ $d->packet }}</td>
+                    <td>
+                        <div class="dropdown">
+                            <a
+                                class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-toggle="dropdown"
+                            >
+                                <i class="dw dw-more"></i>
+                            </a>
+                            <div
+                                class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
+                            >
+                                <a class="dropdown-item" href="{{route('admin_pesanan_edit',['id' => $d->id ])}}"
+                                    ><i class="dw dw-edit2"></i> Edit</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    ><i class="dw dw-delete-3"></i> Delete</a
+                                >
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <div class="modal fade" id="modal-GET{{ $d->id }}">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Konfirmasi Hapus Data</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Apakah kamu yakin ingin menghapus data <b>{{ $d->name }}</b> ?</p>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <form action="{{ route('admin.hapus',['id' => $d->id]) }}" method="GET">
+                                @csrf
+                                @method('GET')
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Ya, Hapus Data</button>
+                            </form>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                @endforeach
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- Simple Datatable End -->
                     </div>
 				</div>
 			</div>
