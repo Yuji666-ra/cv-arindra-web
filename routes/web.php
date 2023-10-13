@@ -71,6 +71,7 @@ Route::get('/get/{id}', [ProjectController::class, 'hapus'])->name('admin.hapus'
 Route::get('admin/admin_user',[AdminController::class, 'user'])->name('admin/admin_user');
 Route::get('admin/admin_pesanan',[AdminController::class, 'pesanan'])->name('admin/admin_pesanan');
 Route::get('/edit/{id}',[AdminController::class, 'edit'])->name('admin_pesanan_edit');
+Route::get('/buat', [AdminController::class, 'buat'])->name('user_buat');
 
 
 

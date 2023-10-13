@@ -349,8 +349,8 @@
 								><span class="mtext">Menu</span>
 							</a>
 							<ul class="submenu">
-                                <li><a href="{{ route('admin_pesanan')}}">Pesanan</a></li>
-                                <li><a href="{{ route('admin_user')}}">User</a></li>
+                                <li><a href="{{ route('admin/admin_pesanan')}}">Pesanan</a></li>
+                                <li><a href="{{ route('admin/admin_user')}}">User</a></li>
 							</ul>
 						</li>
 
@@ -366,6 +366,21 @@
 		<div class="main-container">
 			<div class="pd-ltr-20 xs-pd-20-10">
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+                        <!-- Simple Datatable start -->
+                        <div class="card-header text-center">
+                            <div class="loading-text">Admin CV Arindra</div><br>
+                            <a href="" class="h1">
+                                <img src="/assets/images/logo1.jpeg" alt="Logo E-Log" class="brand-image " style="opacity: .8" width="200"></a><br>
+
+                        </div>
+
+  </div>
+    </div>
+  </div>
+  </div>
+    <!-- /.card-body -->
+
+<!-- Simple Datatable End -->
                     </div>
 				</div>
 			</div>
