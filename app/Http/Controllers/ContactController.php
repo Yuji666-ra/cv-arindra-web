@@ -21,7 +21,7 @@ class ContactController extends Controller {
             'message' => $request->input('message')
         ];
 
-        Mail::to('info@arindraproduction.co.id')->send(new ContactMail($data));
+        Mail::to('ameerazoya2820@gmail.com')->send(new ContactMail($data));
 
         return redirect()->back()->with('message', 'Email telah terkirim!');
     }
