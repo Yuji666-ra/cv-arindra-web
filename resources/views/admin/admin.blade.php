@@ -349,8 +349,8 @@
 								><span class="mtext">Menu</span>
 							</a>
 							<ul class="submenu">
-                                <li><a href="{{ route('admin_pesanan')}}">Pesanan</a></li>
-                                <li><a href="{{ route('admin_user')}}">User</a></li>
+                                <li><a href="{{ route('admin/admin_pesanan')}}">Pesanan</a></li>
+                                <li><a href="{{ route('admin/admin_user')}}">User</a></li>
 							</ul>
 						</li>
 
