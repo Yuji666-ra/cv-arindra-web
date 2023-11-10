@@ -337,7 +337,7 @@
 								><span class="mtext" >Menu</span>
 							</a>
 							<ul class="submenu">
-                                <li><a href="{{ route('admin/admin_user')}}">User</a></li>
+                                <li><a href="{{ route('admin.admin/admin_user')}}">User</a></li>
 							</ul>
 						</li>
 
@@ -391,41 +391,16 @@
                             <div
                                 class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
                             >
-                                <a class="dropdown-item" href="{{route('admin_pesanan_edit',['id' => $d->id ])}}"
-                                    ><i class="dw dw-edit2"></i> Edit</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                    ><i class="dw dw-delete-3"></i> Delete</a
-                                >
+
+                                <a class="dropdown-item" href="{{ route('admin.admin/admin_delete',['id' => $d->id]) }}" action="" method="POST" >
+                                    @method('DELETE')
+                                    @csrf
+									<i class="dw dw-delete-3" ></i> Delete</a>
                             </div>
                         </div>
                     </td>
                 </tr>
-                <div class="modal fade" id="modal-GET{{ $d->id }}">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h4 class="modal-title">Konfirmasi Hapus Data</h4>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <p>Apakah kamu yakin ingin menghapus data <b>{{ $d->name }}</b> ?</p>
-                        </div>
-                        <div class="modal-footer justify-content-between">
-                            <form action="{{ route('admin.hapus',['id' => $d->id]) }}" method="GET">
-                                @csrf
-                                @method('GET')
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary">Ya, Hapus Data</button>
-                            </form>
-                        </div>
-                      </div>
-                      <!-- /.modal-content -->
-                    </div>
-                    <!-- /.modal-dialog -->
-                  </div>
+
                 @endforeach
 
             </tbody>

@@ -337,7 +337,7 @@
 								><span class="mtext" >Menu</span>
 							</a>
 							<ul class="submenu">
-                                <li><a href="{{ route('admin/admin_pesanan')}}">Pesanan</a></li>
+                                <li><a href="{{ route('admin.admin/admin_pesanan')}}">Pesanan</a></li>
 							</ul>
 						</li>
 
@@ -353,7 +353,7 @@
 		<div class="main-container">
 			<div class="pd-ltr-20 xs-pd-20-10">
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-                        <a href="{{route('user_buat')}}" class="btn btn-primary mb-3">Tambah Data</a>
+                        <a href="{{route('admin.user_buat')}}" class="btn btn-primary mb-3">Tambah Data</a>
 
 <!-- Simple Datatable start -->
 <div class="card-box mb-30">
@@ -389,7 +389,7 @@
                           <p>Apakah kamu yakin ingin menghapus data <b>{{ $d->name }}</b> ?</p>
                         </div>
                         <div class="modal-footer justify-content-between">
-                            <form action="{{ route('admin.hapus',['id' => $d->id]) }}" method="GET">
+                            <form action="{{ route('admin.admin.hapus',['id' => $d->id]) }}" method="GET">
                                 @csrf
                                 @method('GET')
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

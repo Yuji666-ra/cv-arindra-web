@@ -7,6 +7,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FooterController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\LoginController;
 
 
 /*
@@ -19,6 +20,7 @@ use App\Http\Controllers\AdminController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -54,10 +56,6 @@ Route::get('footer/lightroom',[FooterController::class, 'lightroom'])->name('foo
 Route::get('footer/master',[FooterController::class, 'master'])->name('footer/master');
 Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('footer/photoshop');
 
-
-    Route::get('admin/admin',[ProjectController::class, 'admin'])->name('admin/admin');
-    Route::get('auth/login',[ProjectController::class, 'login'])->name('auth/login');
-
 Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
 Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
 
@@ -66,12 +64,26 @@ Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send-
 
 Route::get('/contact', 'ContactController@ContactMail');
 
+Route::get('/login',[LoginController::class, 'index'])->name('login');
+Route::post('/login-proses',[LoginController::class, 'login_proses'])->name('login-proses');
+Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
+
+Route::get('/register',[LoginController::class, 'register'])->name('register');
+Route::post('/register-proses',[LoginController::class, 'register_proses'])->name('register-proses');
+
+Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' => 'admin.' ], function(){
+    Route::get('admin/admin',[ProjectController::class, 'admin'])->name('admin/admin');
+
 Route::get('/get/{id}', [ProjectController::class, 'hapus'])->name('admin.hapus');
 
 Route::get('admin/admin_user',[AdminController::class, 'user'])->name('admin/admin_user');
 Route::get('admin/admin_pesanan',[AdminController::class, 'pesanan'])->name('admin/admin_pesanan');
+Route::delete('admin/admin_delete/{id}',[AdminController::class, 'delete'])->name('admin/admin_delete');
 Route::get('/edit/{id}',[AdminController::class, 'edit'])->name('admin_pesanan_edit');
 Route::get('/buat', [AdminController::class, 'buat'])->name('user_buat');
+
+});
+
 
 
 
