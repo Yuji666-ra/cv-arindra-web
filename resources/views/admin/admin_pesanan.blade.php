@@ -339,6 +339,9 @@
 							<ul class="submenu">
                                 <li><a href="{{ route('admin.admin/admin_user')}}">User</a></li>
 							</ul>
+                            <ul class="submenu">
+                                <li><a href="{{ route('logout')}}">Logout</a></li>
+							</ul>
 						</li>
 
 						<li>
@@ -378,28 +381,38 @@
                     <td>{{ $d->email }}</td>
                     <td>{{ $d->service }}</td>
                     <td>{{ $d->packet }}</td>
-                    <td>
-                        <div class="dropdown">
-                            <a
-                                class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle"
-                                href="#"
-                                role="button"
-                                data-toggle="dropdown"
-                            >
-                                <i class="dw dw-more"></i>
-                            </a>
-                            <div
-                                class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list"
-                            >
-
-                                <a class="dropdown-item" href="{{ route('admin.admin/admin_delete',['id' => $d->id]) }}" action="" method="POST" >
-                                    @method('DELETE')
-                                    @csrf
-									<i class="dw dw-delete-3" ></i> Delete</a>
-                            </div>
-                        </div>
-                    </td>
+                    <td> <a data-toggle="modal" data-target="#modal-hapus{{ $d->id }}" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Hapus</a></td>
                 </tr>
+                <div class="modal fade" id="modal-hapus{{ $d->id }}">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Konfirmasi Hapus Data</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Apakah kamu yakin ingin menghapus <b>{{$d->name}}</b></p>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <form action="{{route('admin.pesanan.delete',['id' => $d->id]) }}" method="post">
+                                @csrf
+                                @method('delete')
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Ya, Hapus Data</button>
+
+                            </form>
+
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+
+
 
                 @endforeach
 

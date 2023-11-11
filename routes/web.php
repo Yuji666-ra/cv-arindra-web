@@ -78,7 +78,8 @@ Route::get('/get/{id}', [ProjectController::class, 'hapus'])->name('admin.hapus'
 
 Route::get('admin/admin_user',[AdminController::class, 'user'])->name('admin/admin_user');
 Route::get('admin/admin_pesanan',[AdminController::class, 'pesanan'])->name('admin/admin_pesanan');
-Route::delete('admin/admin_delete/{id}',[AdminController::class, 'delete'])->name('admin/admin_delete');
+Route::delete('/delete/{id}',[AdminController::class, 'delete'])->name('pesanan.delete');
+Route::delete('/hapus/{id}',[AdminController::class, 'hapus'])->name('user.hapus');
 Route::get('/edit/{id}',[AdminController::class, 'edit'])->name('admin_pesanan_edit');
 Route::get('/buat', [AdminController::class, 'buat'])->name('user_buat');
 

@@ -36,14 +36,21 @@ class AdminController extends Controller
         return view('admin/user_buat');
     }
 
-    public function delete(Request $reuest,$id){
+    public function delete(Request $request,$id ){
         $data = Order::find($id);
 
-        if(data){
+        if($data){
             $data->delete();
         }
-
-        return redirect()->route('admin/admin_pesanan');
+        return redirect()->route('admin.admin/admin_pesanan');
     }
 
+    public function hapus(Request $request,$id ){
+        $data = User::find($id);
+
+        if($data){
+            $data->delete();
+        }
+        return redirect()->route('admin.admin/admin_user');
+    }
 }

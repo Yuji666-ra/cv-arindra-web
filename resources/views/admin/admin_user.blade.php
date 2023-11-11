@@ -339,6 +339,9 @@
 							<ul class="submenu">
                                 <li><a href="{{ route('admin.admin/admin_pesanan')}}">Pesanan</a></li>
 							</ul>
+                            <ul class="submenu">
+                                <li><a href="{{ route('logout')}}">Logout</a></li>
+							</ul>
 						</li>
 
 						<li>
@@ -351,22 +354,22 @@
 		<div class="mobile-menu-overlay"></div>
 
 		<div class="main-container">
-			<div class="pd-ltr-20 xs-pd-20-10">
-					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
-                        <a href="{{route('admin.user_buat')}}" class="btn btn-primary mb-3">Tambah Data</a>
+			<div class="pd-ltr-70 xs-pd-30-20">
+					<div class="pd-50 bg-white border-radius-4 box-shadow mb-30">
 
 <!-- Simple Datatable start -->
 <div class="card-box mb-30">
     <div class="pd-20">
         <h4 class="text-blue h4">User</h4>
     </div>
-    <div class="pb-20">
+    <div class="pb-10">
         <table class="data-table table stripe hover nowrap">
             <thead>
                 <tr>
                     <th>Nama</th>
                     <th>Email</th>
                     <th>Password</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -375,8 +378,9 @@
                     <td>{{ $d->name }}</td>
                     <td>{{ $d->email }}</td>
                     <td>{{ $d->password }}</td>
+                    <td><a data-toggle="modal" data-target="#modal-hapus{{ $d->id}}" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Hapus</a></td>
                 </tr>
-                <div class="modal fade" id="modal-GET{{ $d->id }}">
+                <div class="modal fade" id="modal-hapus{{ $d->id}}">
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
@@ -386,21 +390,24 @@
                           </button>
                         </div>
                         <div class="modal-body">
-                          <p>Apakah kamu yakin ingin menghapus data <b>{{ $d->name }}</b> ?</p>
+                          <p>Apakah kamu yakin ingin menghapus <b>{{ $d->name }}</b></p>
                         </div>
                         <div class="modal-footer justify-content-between">
-                            <form action="{{ route('admin.admin.hapus',['id' => $d->id]) }}" method="GET">
+                            <form action="{{route('admin.user.hapus',['id' => $d->id]) }}" method="post">
                                 @csrf
-                                @method('GET')
+                                @method('delete')
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-primary">Ya, Hapus Data</button>
                             </form>
+
                         </div>
                       </div>
                       <!-- /.modal-content -->
                     </div>
                     <!-- /.modal-dialog -->
                   </div>
+                  <!-- /.modal -->
+
                 @endforeach
 
             </tbody>
