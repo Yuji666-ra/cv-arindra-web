@@ -66,7 +66,7 @@
 		<div class="pre-loader">
 			<div class="pre-loader-box">
 				<div class="loader-logo">
-					<img src="assets/images/logo1.jpeg" width="200" alt="" />
+					<img src="/assets/images/logo1.jpeg" width="200" alt="" />
 				</div>
 				<div class="loader-progress" id="progress_div">
 					<div class="bar" id="bar1"></div>
@@ -278,7 +278,8 @@
 		<div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
-					<img src="/assets/images/logo1.jpeg" width="70" alt="" class="justify-content-center align-items-center" />
+                    <img src="/assets/images/logo1.jpeg" alt="Logo CV Arindra Production" class="brand-image text-center" style="margin: 10px;" width="50"><br>
+                    <h6 class="">Arindra Production</h6>
 				</a>
 				<div class="close-sidebar" data-toggle="left-sidebar-close">
 					<i class="ion-close-round"></i>
@@ -314,9 +315,10 @@
                         <!-- Simple Datatable start -->
 
                         <div class="card-header text-center">
-                            <div class="loading-text">Admin CV Arindra</div><br>
+                            <div class="loading-text"><h1>Halaman Admin</h1></div><br>
                             <a href="" class="h1">
-                                <img src="/assets/images/logo1.jpeg" alt="Logo E-Log" class="brand-image " style="opacity: .8" width="200"></a><br>
+                                <img src="/assets/images/logo1.jpeg" alt="Logo Cv Arindra" class="brand-image "  width="200"></a><br><br>
+                                <div class="loading-text" ><h1>CV Arindra Production</h1></div><br>
 
                         </div>
 

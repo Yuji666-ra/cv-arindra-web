@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Register</title>
+
+  <title>Admin | Register</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -19,10 +20,11 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="{{route('login')}}" class="h1"><b>Admin</b>LTE</a>
+        <img src="/assets/images/logo1.jpeg" alt="Logo CV Arindra Production" class="brand-image " style="opacity: .8" width="50"></a><br>
+      <a href="{{route('register')}}" class="h2"><b>Admin</b><br>CV Arindra Production</a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Halaman Register</p>
+      <p class="login-box-msg">Register Page</p>
 
       <form action="{{route('register-proses')}}" method="post">
         @csrf
@@ -62,7 +64,7 @@
         <div class="row">
           <!-- /.col -->
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
           </div>
           <!-- /.col -->
         </div>

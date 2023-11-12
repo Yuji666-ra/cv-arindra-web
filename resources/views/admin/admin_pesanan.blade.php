@@ -74,21 +74,7 @@
 				<div class="header-search">
 					<form>
 						<div class="form-group mb-0">
-							<i class="dw dw-search2 search-icon"></i>
-							<input
-								type="text"
-								class="form-control search-input"
-								placeholder="Search Here"
-							/>
 							<div class="dropdown">
-								<a
-									class="dropdown-toggle no-arrow"
-									href="#"
-									role="button"
-									data-toggle="dropdown"
-								>
-									<i class="ion-arrow-down-c"></i>
-								</a>
 								<div class="dropdown-menu dropdown-menu-right">
 									<div class="form-group row">
 										<label class="col-sm-12 col-md-2 col-form-label"
@@ -322,7 +308,8 @@
 		<div class="left-side-bar">
 			<div class="brand-logo">
 				<a href="index.html">
-					<img src="/assets/images/logo1.jpeg" width="70" alt="" class="justify-content-center align-items-center" />
+                    <img src="/assets/images/logo1.jpeg" alt="Logo CV Arindra Production" class="brand-image text-center" style="margin: 10px;" width="50"><br>
+                    <h6 class="">Arindra Production</h6>
 				</a>
 				<div class="close-sidebar" data-toggle="left-sidebar-close">
 					<i class="ion-close-round"></i>
@@ -359,7 +346,7 @@
 <!-- Simple Datatable start -->
 <div class="card-box mb-30">
     <div class="pd-20">
-        <h4 class="text-blue h4">Pesanan</h4>
+        <h4 class="text-blue h4">List Pesanan</h4>
     </div>
     <div class="pb-20">
         <table class="data-table table stripe hover nowrap">

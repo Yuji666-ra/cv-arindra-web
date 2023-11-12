@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in (v2)</title>
+  <meta name="viewport" content="">
+  <title>Admin | Log in</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -19,10 +19,11 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="{{route('login')}}" class="h1"><b>Admin</b>LTE</a>
+        <img src="/assets/images/logo1.jpeg" alt="Logo CV Arindra Production" class="brand-image " style="opacity: .8" width="50"></a><br>
+      <a href="{{route('login')}}" class="h2"><b>Admin</b><br>CV Arindra Production</a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">Login in to start your session</p>
 
       <form action="{{route('login-proses')}}" method="post">
         @csrf
@@ -49,28 +50,16 @@
         <small> {{ $message}} </small>
       @enderror
         <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Remember Me
-              </label>
-            </div>
-          </div>
           <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-block">Log In</button>
           </div>
           <!-- /.col -->
         </div>
       </form>
 
-
-      <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
-      </p>
       <p class="mb-0">
-        <a href="{{ route('register')}}" class="text-center">Register a new membership</a>
+        <a href="{{ route('register')}}" class="text-center">Don't have account? Register Here</a>
       </p>
     </div>
     <!-- /.card-body -->
