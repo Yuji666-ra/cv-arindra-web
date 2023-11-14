@@ -49,6 +49,8 @@ scale=1.0">
     <!--Content-->
     @yield('content')
 
+
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
 

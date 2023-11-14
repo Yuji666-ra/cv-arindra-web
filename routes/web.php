@@ -38,6 +38,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+//routing navbar page website
+
+
+
 //routing page website
 Route::get('projects/dbl',[ProjectController::class, 'dbl'])->name('projects/dbl');
 Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/camp');
