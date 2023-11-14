@@ -24,12 +24,12 @@
                         Portofolio
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Video Event</a></li>
-                        <li><a class="dropdown-item" href="#">Documenter Film</a></li>
+                        <li><a class="dropdown-item" href="#project">Video Event</a></li>
+                        <li><a class="dropdown-item" href="#project">Documenter Film</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Photo Event</a></li>
+                        <li><a class="dropdown-item" href="#portfolio">Photo Event</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

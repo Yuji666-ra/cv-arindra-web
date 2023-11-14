@@ -38,6 +38,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+//routing page website
 Route::get('projects/dbl',[ProjectController::class, 'dbl'])->name('projects/dbl');
 Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/camp');
 Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
@@ -64,6 +65,8 @@ Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send-
 
 Route::get('/contact', 'ContactController@ContactMail');
 
+
+//routing admin
 Route::get('/login',[LoginController::class, 'index'])->name('login');
 Route::post('/login-proses',[LoginController::class, 'login_proses'])->name('login-proses');
 Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
