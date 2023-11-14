@@ -13,10 +13,10 @@
         <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">About Us</a>
+                    <a class="nav-link active" href="#contact">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -33,7 +33,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Pricelist</a>
+                    <a class="nav-link active" href="#pricing">Pricelist</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
