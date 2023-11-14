@@ -69,7 +69,7 @@
     <section id="detail" style="margin-top: 100px" class="py-5">
 
         <div class="header-projecr text-center">
-            <h2 class="fw-bold">Price List Photo Event </h2>
+            <h2 class="text-secondary mb-5">Price List Photo Event </h2>
         </div>
 
         <section id="pricing" class="pricing">

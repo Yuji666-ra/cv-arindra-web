@@ -70,7 +70,7 @@
         <div class="container col-xxl-8">
 
             <div class="header-projecr text-center">
-                <h2 class="fw-bold">Price List Jasa Drone dan Pilot</h2>
+                <h2 class="text-secondary mb-5">Price List Jasa Drone dan Pilot</h2>
             </div>
 
             <section id="pricing" class="pricing">
