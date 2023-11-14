@@ -2,29 +2,33 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactMail;
+use App\Models\Contact; // Pastikan menggunakan namespace yang sesuai dengan model Contact
 
-class ContactController extends Controller {
-
-    public function index()
+class ContactController extends Controller
+{
+    public function create()
     {
         return view('contact.contact');
     }
-    public function sendEmail(Request $request)
+
+    public function store(Request $request)
     {
-        $data = [
-            'name' => $request->input('name'),
-            'email' => $request->input('email'),
-            'subject' => $request->input('subject'),
-            'message' => $request->input('message')
-        ];
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
 
-        Mail::to('ameerazoya2820@gmail.com')->send(new ContactMail($data));
+        try {
+            // Simpan data pesan kontak ke database
+            Contact::create($validatedData);
 
-        return redirect()->back()->with('success', 'Pesan telah terkirim!');
+            // Setelah berhasil disimpan, tampilkan notifikasi
+            return redirect('/contact')->with('success', 'Pesan telah terkirim!');
+        } catch (\Exception $e) {
+            // Jika terjadi kesalahan saat penyimpanan ke database, tampilkan pesan kesalahan
+            return redirect('/contact')->with('error', 'Terjadi kesalahan!');
+        }
     }
 }
-

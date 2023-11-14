@@ -5,8 +5,10 @@
 <html>
 
 <head>
+    <title>Form Pemesanan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+        /* Gaya CSS Anda di sini */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -36,7 +38,7 @@
 
         input[type="text"],
         input[type="email"],
-        select {
+        textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -72,11 +74,14 @@
             background-color: #f44336;
             color: #ffffff;
         }
+
+
     </style>
+
 </head>
 
 <body>
-    <h1>Contact Us</h1>
+    <h1>Form Kontak</h1>
     <section id="form-contact">
         <div class="container">
             @if ($message = Session::get('success'))
@@ -95,26 +100,20 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ route('send-email') }}">
-                @csrf
-                <label for="name">Nama:</label>
-                <input type="text" name="name" required>
+        <form method="POST" action="{{ route('send-message') }}">
+            @csrf
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-                <label for="subject">Subjek:</label>
-                <input type="text" name="subject" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
 
-                <label for="message">Pesan:</label>
-                <input type="text" name="message" required>
-
-                <button type="submit">Kirim</button>
-
-            </form>
-        </div>
-    </section>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
 </body>
 
 </html>
-</section>

@@ -60,10 +60,8 @@ Route::get('footer/photoshop',[FooterController::class, 'photoshop'])->name('foo
 Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
 Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
 
-Route::get('/send-email', [ContactController::class, 'index'])->name('contact-us');
-Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('send-email');
-
-Route::get('/contact', 'ContactController@ContactMail');
+Route::get('/contact', [ContactController::class, 'create'])->name('contact-us');
+Route::post('/contact', [ContactController::class, 'store'])->name('send-message');
 
 
 //routing admin
