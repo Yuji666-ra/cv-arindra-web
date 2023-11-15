@@ -1,5 +1,4 @@
 @extends('layouts.layouts')
-
 <style>
     /* ====================Styling untuk navbar =========================*/
     #logo-img {
@@ -63,15 +62,40 @@
         color: black;
         /* Warna font default tanpa di-scroll */
     }
-</style>
 
+    /*Cover Jumbotron*/
+    .cover {
+        height: 50vh;
+        /* 100% tinggi dari viewport */
+        background-color: #37517E;
+        /* Ganti dengan warna yang diinginkan */
+        color: white;
+        /* Warna teks agar terlihat jelas di atas warna latar belakang */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cover h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .cover p {
+        font-size: 1.5rem;
+    }
+</style>
 @section('content')
-    <section id="detail" style="margin-top: 100px" class="py-5">
+    <section id="detail" style="margin-top: 12px" class="py-5">
+        <div class="cover">
+            <h1>Project CV.Arindra Production</h1>
+            <p>Berikut adalah Project yang telah kami lakukan.</p>
+        </div>
+
         <div class="container col-xxl-8">
 
-            <div class="header-projecr text-center">
-                <h2 class="fw-bold">Project CV. Arindra Production </h2>
-            </div>
 
             <div class="row py-5" data-aos="zoom-in">
                 <div class="col-lg-4">

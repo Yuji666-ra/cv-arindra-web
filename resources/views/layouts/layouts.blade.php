@@ -41,6 +41,10 @@ scale=1.0">
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+
+
+
 </head>
 
 <body>
@@ -131,6 +135,9 @@ scale=1.0">
             </div>
         </div>
     </footer><!-- End Footer -->
+
+
+
 
     <div id="preloader"></div>
     <a href="" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -238,6 +245,7 @@ scale=1.0">
 
 
     <!-- anaything JS Script  -->
+
     <script>
         (function() {
             "use strict";
