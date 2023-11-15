@@ -207,7 +207,7 @@
                 <label for="message">Pesan:</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Kirim</button>
+                <button type="submit">Submit</button>
 
 
             </form>
