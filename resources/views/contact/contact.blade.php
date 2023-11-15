@@ -207,9 +207,13 @@
                 <label for="message">Pesan:</label>
                 <textarea id="message" name="message" required></textarea>
 
+<<<<<<< Updated upstream
                 <button type="submit">Submit</button>
 
 
+=======
+                <button type="submit">Kirim!</button>
+>>>>>>> Stashed changes
             </form>
         </div>
 </body>
