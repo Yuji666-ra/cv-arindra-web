@@ -63,17 +63,47 @@
         color: black;
         /* Warna font default tanpa di-scroll */
     }
+
+    /*memperbesar tulisan view*/
+    .larger-font {
+        font-size: 14px;
+    }
+
+    /*Cover Jumbotron*/
+    .cover {
+        height: 50vh;
+        /* 100% tinggi dari viewport */
+        background-color: #37517E;
+        /* Ganti dengan warna yang diinginkan */
+        color: white;
+        /* Warna teks agar terlihat jelas di atas warna latar belakang */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cover h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .cover p {
+        font-size: 1.5rem;
+    }
 </style>
 
 @section('content')
-    <section id="detail" style="margin-top: 40px" class="py-5">
+    <section id="detail" style="margin-top: 12px" class="py-5">
     </section>
+    <div class="cover" style="margin-bottom: 50px">
+        <h1>Tutorial Davinci Resolve</h1>
+        <p>Lihat Selengkapnya Tutorial Davinci Resolve Dari Kami</p>
+    </div>
     <section id="services" class="services section-bg">
-        <div class="container">
+        <div class="container" style="margin-bottom: 80px">
 
-            <div class="section-title">
-                <h2 data-aos="fw-bold mb-5 text-secondary"> Tutorial Adobe After Effect</h2>
-            </div>
 
             <div class="row justify-content-center">
                 <div class="row py-2" data-aos="zoom-in">

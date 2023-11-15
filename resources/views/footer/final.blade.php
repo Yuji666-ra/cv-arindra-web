@@ -63,47 +63,123 @@
         color: black;
         /* Warna font default tanpa di-scroll */
     }
+
+    /*memperbesar tulisan view*/
+    .larger-font {
+        font-size: 14px;
+    }
+
+    /*Cover Jumbotron*/
+    .cover {
+        height: 50vh;
+        /* 100% tinggi dari viewport */
+        background-color: #37517E;
+        /* Ganti dengan warna yang diinginkan */
+        color: white;
+        /* Warna teks agar terlihat jelas di atas warna latar belakang */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cover h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .cover p {
+        font-size: 1.5rem;
+    }
 </style>
 
 @section('content')
-    <section id="detail" style="margin-top: 40px" class="py-5">
+    <section id="detail" style="margin-top: 12px" class="py-5">
     </section>
+    <div class="cover" style="margin-bottom: 50px">
+        <h1>Tutorial Final Cut Pro</h1>
+        <p>Lihat Selengkapnya Tutorial Final Cut Pro Dari Kami</p>
+    </div>
     <section id="services" class="services section-bg">
-        <div class="container">
+        <div class="container" style="margin-bottom: 80px">
 
             <div class="section-title">
-                <h2 data-aos="fw-bold mb-3"> Tutorial Final Cut Pro</h2>
-            </div>
 
-            <div class="row justify-content-center">
-                <div class="row py-2" data-aos="zoom-in">
-                    <div class="col-lg-4">
-                        <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial1.jpg') }}" class="img-fluid mb-3"
-                                height="350" width="350" alt="">
-                            <div class="konten-project-center">
-                                <h5 class="fw-bold mb-3">Cara Mudah Mengedit Video di Final Cut Pro</h5>
-                                <a href="https://youtu.be/WM9-uROYG9s"><i class="bi bi-arrow-right"></i> View</a>
+                <div class="row justify-content-center">
+                    <div class="row py-2" data-aos="zoom-in">
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial1.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project-center">
+                                    <h5 class="fw-bold mb-3">Looping Clone Effect dari Agung Hapsah</h5>
+                                    <a href="https://youtu.be/tbAeKmJwr-g" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial2.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project">
+                                    <h5 class="fw-bold mb-3">CARA EDIT SHARINGAN EYE / MATA</h5>
+                                    <a href="https://youtu.be/m9-mkw-XpLo" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial3.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project">
+                                    <h5 class="fw-bold mb-3">CAPTAIN MARVEL ENERGY EFFECT</h5>
+                                    <a href="https://youtu.be/CI0LZFJvCoo" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial2.jpg') }}" class="img-fluid mb-3"
-                                height="350" width="350" alt="">
-                            <div class="konten-project">
-                                <h5 class="fw-bold mb-3">Belajar Final Cut Pro X Bahasa Indonesia (Basic)</h5>
-                                <a href="https://youtu.be/IZ1cIQol-6g"><i class="bi bi-arrow-right"></i> View</a>
+                    <div class="row py-2" data-aos="zoom-in">
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial4.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project-center">
+                                    <h5 class="fw-bold mb-3">Tutorial AUDIO SPECTRUM seperti</h5>
+                                    <a href="https://youtu.be/2XyndAJZTR8" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial3.jpg') }}" class="img-fluid mb-3"
-                                height="350" width="350" alt="">
-                            <div class="konten-project">
-                                <h5 class="fw-bold mb-3">Smooth Transitions</h5>
-                                <a href="https://youtu.be/WM9-uROYG9s"><i class="bi bi-arrow-right"></i> View</a>
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial5.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project">
+                                    <h5 class="fw-bold mb-3">Hologram Effect dari Agung Hapsah</h5>
+                                    <a href="https://youtu.be/5lcBaIHkmWo" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0">
+                                <img src="{{ asset('assets/images/tutorial/after/tutorial6.jpg') }}" class="img-fluid mb-3"
+                                    height="350" width="350" alt="">
+                                <div class="konten-project">
+                                    <h5 class="fw-bold mb-3">Tutorial PORTAL DOCTOR STRANGE</h5>
+                                    <a href="https://youtu.be/CkBW9vz9tXs" class="larger-font"><i
+                                            class="bi bi-arrow-right"></i>
+                                        View</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,35 +187,40 @@
                 <div class="row py-2" data-aos="zoom-in">
                     <div class="col-lg-4">
                         <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial4.jpg') }}" class="img-fluid mb-3"
+                            <img src="{{ asset('assets/images/tutorial/after/tutorial4.jpg') }}" class="img-fluid mb-3"
                                 height="350" width="350" alt="">
                             <div class="konten-project-center">
-                                <h5 class="fw-bold mb-3">Tutorial Door Open Transition</h5>
-                                <a href="https://youtu.be/NMKLr8TGp9E"><i class="bi bi-arrow-right"></i> View</a>
+                                <h5 class="fw-bold mb-3">Tutorial AUDIO SPECTRUM seperti</h5>
+                                <a href="https://youtu.be/2XyndAJZTR8" class="larger-font"><i
+                                        class="bi bi-arrow-right"></i>
+                                    View</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial5.jpg') }}" class="img-fluid mb-3"
+                            <img src="{{ asset('assets/images/tutorial/after/tutorial5.jpg') }}" class="img-fluid mb-3"
                                 height="350" width="350" alt="">
                             <div class="konten-project">
-                                <h5 class="fw-bold mb-3">Cara Mengedit Boomerang Drone</h5>
-                                <a href="https://youtu.be/xJRzccyF9bE"><i class="bi bi-arrow-right"></i> View</a>
+                                <h5 class="fw-bold mb-3">Hologram Effect dari Agung Hapsah</h5>
+                                <a href="https://youtu.be/5lcBaIHkmWo" class="larger-font"><i
+                                        class="bi bi-arrow-right"></i>
+                                    View</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card border-0">
-                            <img src="{{ asset('assets/images/tutorial/final/tutorial6.jpg') }}" class="img-fluid mb-3"
+                            <img src="{{ asset('assets/images/tutorial/after/tutorial6.jpg') }}" class="img-fluid mb-3"
                                 height="350" width="350" alt="">
                             <div class="konten-project">
-                                <h5 class="fw-bold mb-3">Cara Edit Speed Ramp Transition</h5>
-                                <a href="https://youtu.be/118lk7V-3Zo"><i class="bi bi-arrow-right"></i> View</a>
+                                <h5 class="fw-bold mb-3">Tutorial PORTAL DOCTOR STRANGE</h5>
+                                <a href="https://youtu.be/CkBW9vz9tXs" class="larger-font"><i
+                                        class="bi bi-arrow-right"></i>
+                                    View</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
     </section><!-- End Services Section -->
 @endsection
