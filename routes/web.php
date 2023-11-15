@@ -8,6 +8,7 @@ use App\Http\Controllers\FooterController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CareerController;
 
 
 /*
@@ -47,7 +48,7 @@ Route::get('projects/dbl',[ProjectController::class, 'dbl'])->name('projects/dbl
 Route::get('projects/camp',[ProjectController::class, 'camp'])->name('projects/camp');
 Route::get('projects/esport',[ProjectController::class, 'esport'])->name('projects/esport');
 Route::get('projects/project',[ProjectController::class, 'project'])->name('projects/project');
-Route::get('careers',[ProjectController::class, 'careers'])->name('careers');
+
 Route::get('price/company',[PriceController::class, 'company'])->name('price/company');
 Route::get('price/video',[PriceController::class, 'video'])->name('price/video');
 Route::get('price/photo',[PriceController::class, 'photo'])->name('price/photo');
@@ -66,6 +67,9 @@ Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
 
 Route::get('/contact', [ContactController::class, 'create'])->name('contact-us');
 Route::post('/contact', [ContactController::class, 'store'])->name('send-message');
+
+Route::get('/career/create', [CareerController::class, 'create'])->name('form-career');
+Route::post('/career', [CareerController::class,'store'])->name('careers-index');
 
 
 //routing admin

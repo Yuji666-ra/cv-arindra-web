@@ -42,7 +42,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Showreel</a></li>
-                        <li><a class="dropdown-item" href="#">Karir</a></li>
+                        <li><a class="dropdown-item" href="{{ route('form-career') }}">Karir</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
