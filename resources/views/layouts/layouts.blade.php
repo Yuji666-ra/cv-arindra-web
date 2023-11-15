@@ -81,7 +81,7 @@ scale=1.0">
                         <ul class="footer-list">
                             <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Careers</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#form-career">Careers</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a
                                     href="{{ route('footer/tutorial') }}">Tutorial</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
