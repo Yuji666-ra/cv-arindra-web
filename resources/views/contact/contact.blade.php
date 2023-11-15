@@ -208,9 +208,13 @@
                 <textarea id="message" name="message" required></textarea>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 <button type="submit">Submit</button>
 
 
+=======
+                <button type="submit">Kirim!</button>
+>>>>>>> Stashed changes
 =======
                 <button type="submit">Kirim!</button>
 >>>>>>> Stashed changes
